@@ -19,12 +19,11 @@ main {
 */
 
 .intro {
-	font-family: 'Inconsolata', sans-serif;
-	background: lightgreen;
+	font-family: 'Roboto';
+	font-weight: 200;
+/*	background: lightgreen;*/
 	padding-top: 2vh;
 	padding-bottom: 2vh;
-	padding-left: 2vh;
-	padding-right: 2vh;
 }
 
 /*
@@ -37,14 +36,17 @@ main {
 */
 
 #datasonification {
+	margin-top: 5vh;
 /*	background: purple;*/
 }
 
 #project {
+	margin-top: 5vh;
 /*	background: purple;*/
 }
 
 #keysound {
+	margin-top: 5vh;
 /*	background: purple;*/
 }
 
@@ -63,8 +65,11 @@ main {
 
 .navbar {
 	background-color: white;
-
 }
+
+
+
+
 
 
 /* Links inside the navbar */
@@ -127,6 +132,10 @@ main {
 	color:lightgray;
 }
 
+.red {
+	color:red;
+}
+
 .risposta {
 /*	background: pink;*/
 	margin-left: 5vh;
@@ -135,11 +144,7 @@ main {
 	font-weight: 300;
 }
 
-.number {
-/*	background: pink;*/
-	font-family: 'Roboto';
-	font-weight: 500;
-}
+
 
 .rispvideo {
 	background: gray;
@@ -155,24 +160,35 @@ ul {
 	text-indent: -1em;
 }
 
+.esempi {
+	font-family: 'Roboto';
+	color:black
 
-.footer {
-	margin-top: 13vh;
-	padding-bottom: 0.9vh;
-	background: darkgray;
+}
+
+.esempi:hover {
+	color: black;
+	font-weight: 300;
+	text-decoration: underline;
 }
 
 
+.footer {
+	margin-top: 13vh;
+	background: lightgray;
+}
+
+
+
 .info {
+	margin-left: 1vh;
 	margin-top: 1vh;
+	margin-bottom: 1.3vh;
 	font-family: 'IBM Plex Serif', serif;
 }
 
 
-.logo {
-	margin-top: 5px;
-	padding-bottom: 15px;
-}
+
 
 /* Media queries */
 
@@ -190,6 +206,7 @@ ul {
 	}
 	.risposta {
 		font-size: 0.9rem;
+		line-height: 3vh;
 	}
 	.info {
 		font-size: 0.7rem;
@@ -215,12 +232,14 @@ ul {
 	}
 	.intro {
 		font-size: 1rem;
+		line-height: 3vh;
 	}
 	.domanda {
 		font-size: 0.9rem;
 	}
 	.risposta {
 		font-size: 1.2rem;
+		line-height: 3.7vh;
 	}
 	.info {
 		font-size: 0.9rem;
