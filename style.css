@@ -1,0 +1,224 @@
+html {
+	--video-width: 709px;
+}
+
+main {
+	position: relative;
+	top: 100px;
+}
+
+/*! ------------- sezioni -------------- */
+
+/*
+.sectionTop {
+  background:gray;
+  margin-top:30px;
+  padding-left:0px;
+  padding-right:0px;
+}
+*/
+
+.intro {
+	font-size: 0.9rem;
+	font-family: 'Inconsolata', sans-serif;
+	background: lightgreen;
+	padding-top: 2vh;
+	padding-bottom: 2vh;
+	padding-left: 2vh;
+	padding-right: 2vh;
+}
+
+/*
+.sectionMiddle {
+  background:green;
+  margin-top:140px;
+  padding-left:0px;
+  padding-right:0px;
+}
+*/
+
+#datasonification {
+	background: purple;
+}
+
+#project {
+	background: purple;
+}
+
+#keysound {
+	background: purple;
+}
+
+/*
+.sectionDown {
+  background:lightblue;
+  margin-top:30px;
+  padding-left:0px;
+  padding-right:0px;
+}
+*/
+
+/*! ------------------------------------------ NAVBAR ------------------------------------------ */
+
+/* The navigation bar */
+
+.navbar {
+	background-color: white;
+
+}
+
+
+/* Links inside the navbar */
+
+.navbar a {
+	float: left;
+	display: block;
+	color: red;
+	text-align: center;
+	padding: 2vh;
+	text-decoration: none;
+}
+
+/* Change background on mouse-over */
+
+.navbar a:hover {
+	color: red;
+	text-decoration: underline;
+}
+
+/* Main content */
+
+/*
+.main {
+  margin-top: 30px;  Add a top margin to avoid content overlay 
+}
+*/
+
+/*! ------------------------------------------ video --------------------------------------------- */
+
+.video {
+	width: var(--video-width);
+	height: calc(var(--video-width) / 16 * 9);
+}
+
+
+
+/*! ------------------------------------------ HEADER-text --------------------------------------------- */
+
+@font-face {
+	font-family: ariah;
+	src: url(./assets/font/ariah.ttf);
+}
+
+.name {
+	margin-top: 0vh;
+	font-family: 'ariah';
+	color: black;
+	text-align: left;
+}
+
+
+/*! ------------------------------------------  rules.html ------------------------------------------ */
+
+.domanda {
+	/*intro for paragraph*/
+	margin-top: 2vh;
+	font-family: 'Inconsolata', sans-serif;
+	background: yellow;
+}
+
+.risposta {
+	background: pink;
+	margin-left: 10vh;
+	margin-top: 3vh;
+	font-family: 'Roboto';
+	font-weight: 300;
+}
+
+.rispvideo {
+	background: gray;
+	margin-left: 50px;
+	margin-top: 30px;
+	/*	height:100%;*/
+}
+
+ul {
+	list-style: inside;
+	margin-left: 0;
+	padding-left: 1em;
+	text-indent: -1em;
+}
+
+
+.footer {
+	margin-top: 0px;
+	background: darkgray;
+}
+
+
+.course {
+	margin-top: 10px;
+	font-size: 11pt;
+	font-family: 'IBM Plex Serif', serif;
+	line-height: 18px;
+}
+
+.spring {
+	margin-top: 5px;
+	font-size: 9pt;
+	font-family: 'Inconsolata', sans-serif;
+	line-height: 18px;
+	padding-bottom: 15px;
+}
+
+/* Media queries */
+
+/*// Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 576px) {
+	html {
+		--video-width: 460px;
+	}
+	.name {
+		font-size: 2rem;
+	}
+	.domanda {
+		font-size: 0.8rem;
+	}
+	.risposta {
+		font-size: 0.9rem;
+	}
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+
+@media (min-width: 768px) {
+	html {
+		--video-width: 640px;
+	}
+}
+
+/*// Large devices (desktops, 992px and up)*/
+
+@media (min-width: 992px) {
+	html {
+		--video-width: 880px;
+	}
+	.name {
+		font-size: 2.3rem;
+	}
+	.domanda {
+		font-size: 1rem;
+	}
+	.risposta {
+		font-size: 1.2rem;
+	}
+}
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+
+@media (min-width: 1200px) {
+	html {
+		--video-width: 1060px;
+	}
+}
