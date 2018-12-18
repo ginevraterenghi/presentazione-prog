@@ -21,24 +21,24 @@ main {
 .intro {
 	font-family: 'Chivo';
 	font-weight: 300;
-/*	background: lightgreen;*/
+	/*	background: lightgreen;*/
 	padding-top: 2vh;
 	padding-bottom: 2vh;
 }
 
 #datasonification {
 	margin-top: 5vh;
-/*	background: purple;*/
+	/*	background: purple;*/
 }
 
 #project {
 	margin-top: 5vh;
-/*	background: purple;*/
+	/*	background: purple;*/
 }
 
 #keysound {
 	margin-top: 5vh;
-/*	background: purple;*/
+	/*	background: purple;*/
 }
 
 
@@ -53,14 +53,14 @@ main {
 
 
 .navbar-toggler {
-/*	background-image: './assets/hamburger.png';*/
+	/*	background-image: './assets/hamburger.png';*/
 	background-color: transparent;
 	border: transparent;
 }
 
 
 .navbar-toggler-icon {
-/*	background-image: './assets/hamburger.png';*/
+	/*	background-image: './assets/hamburger.png';*/
 	border: 1px solid red;
 }
 
@@ -119,13 +119,11 @@ main {
 
 /* Main content */
 
-
 /*
 .main {
   margin-top: 30px;  Add a top margin to avoid content overlay 
 }
 */
-
 
 /*! ------------------------------------------ video --------------------------------------------- */
 
@@ -156,22 +154,22 @@ main {
 
 .domanda {
 	/*intro for paragraph*/
-	margin-top: 2vh;
+	margin-top: 2.8vh;
 	font-family: 'Chivo';
 	font-weight: 300;
-/*	background: yellow;*/
-	color:lightgray;
+	/*	background: yellow;*/
+	color: lightgray;
 }
 
 .red {
-	color:red;
+	color: red;
 	font-weight: 700;
 }
 
 .risposta {
-/*	background: pink;*/
+	/*	background: pink;*/
 	margin-left: 5vh;
-	margin-top: 3vh;
+	margin-top: 1vh;
 	font-family: 'Chivo';
 	font-weight: 300;
 }
@@ -192,11 +190,24 @@ ul {
 	text-indent: -1em;
 }
 
+li {
+	font-weight: 500;
+	list-style: none;
+	margin-top: 2vh;
+}
+
+dd {
+	font-weight: 100;
+	list-style: none;
+	text-indent: 2em;
+	margin-bottom: 0px;
+}
+
+
 .esempi {
 	font-family: 'Chivo';
 	font-weight: 300;
-	color:black
-
+	color: black
 }
 
 .esempi:hover {
@@ -217,6 +228,7 @@ ul {
 	margin-top: 2vh;
 	margin-bottom: 0.2vh;
 	font-family: 'Chivo';
+	font-weight: 200;
 	font-size: 0.6rem;
 }
 
@@ -225,7 +237,16 @@ ul {
 	margin-top: 0.2vh;
 	margin-bottom: 2.6vh;
 	font-family: 'Chivo';
+	font-weight: 200;
 	font-size: 0.6rem;
+}
+
+.slide {
+	width: 380px;
+}
+
+.mappa {
+	width: 370px;
 }
 
 
@@ -238,6 +259,12 @@ ul {
 @media (min-width: 576px) {
 	html {
 		--video-width: 460px;
+	}
+	.slide {
+		width: 500px;
+	}
+	.mappa {
+		width: 400px;
 	}
 	.name {
 		font-size: 2rem;
@@ -265,6 +292,12 @@ ul {
 @media (min-width: 768px) {
 	html {
 		--video-width: 640px;
+	}
+	.slide {
+		width: 700px;
+	}
+	.mappa {
+		width: 500px;
 	}
 }
 
