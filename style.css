@@ -1,5 +1,5 @@
 html {
-	--video-width: 709px;
+	--video-width: 495px;
 }
 
 main {
@@ -19,8 +19,8 @@ main {
 */
 
 .intro {
-	font-family: 'Roboto';
-	font-weight: 200;
+	font-family: 'Chivo';
+	font-weight: 300;
 /*	background: lightgreen;*/
 	padding-top: 2vh;
 	padding-bottom: 2vh;
@@ -65,8 +65,15 @@ main {
 
 .navbar {
 	background-color: white;
+	padding-left: 0px;
 }
 
+
+.navbar-toggler-icon {
+/*	background-image: './assets/hamburger.png';*/
+	background-color: white;
+	border: 1px solid red;
+}
 
 
 
@@ -81,22 +88,55 @@ main {
 	text-align: center;
 	padding: 2vh;
 	text-decoration: none;
+	font-family: 'Chivo';
+	font-weight: 300;
+}
+
+.nav a {
+	float: left;
+	display: block;
+	color: red;
+	text-align: center;
+	padding: 2vh;
+	text-decoration: none;
+	font-family: 'Chivo';
+	font-weight: 300;
 }
 
 /* Change background on mouse-over */
 
 .navbar a:hover {
 	color: red;
-	text-decoration: underline;
+	text-decoration: none;
+	font-family: 'Chivo';
+	font-weight: 700;
+}
+
+
+.insection {
+	color: red;
+	text-decoration: none;
+	font-family: 'Chivo';
+	font-weight: 700;
+}
+
+
+.capitolo {
+	color: black;
+	text-decoration: none;
+	font-family: 'Chivo';
+	font-weight: 500;
 }
 
 /* Main content */
+
 
 /*
 .main {
   margin-top: 30px;  Add a top margin to avoid content overlay 
 }
 */
+
 
 /*! ------------------------------------------ video --------------------------------------------- */
 
@@ -119,6 +159,7 @@ main {
 	font-family: 'ariah';
 	color: black;
 	text-align: left;
+	font-size: 1.7rem;
 }
 
 
@@ -127,20 +168,22 @@ main {
 .domanda {
 	/*intro for paragraph*/
 	margin-top: 2vh;
-	font-family: 'Inconsolata', sans-serif;
+	font-family: 'Chivo';
+	font-weight: 300;
 /*	background: yellow;*/
 	color:lightgray;
 }
 
 .red {
 	color:red;
+	font-weight: 700;
 }
 
 .risposta {
 /*	background: pink;*/
 	margin-left: 5vh;
 	margin-top: 3vh;
-	font-family: 'Roboto';
+	font-family: 'Chivo';
 	font-weight: 300;
 }
 
@@ -161,20 +204,20 @@ ul {
 }
 
 .esempi {
-	font-family: 'Roboto';
+	font-family: 'Chivo';
+	font-weight: 300;
 	color:black
 
 }
 
 .esempi:hover {
 	color: black;
-	font-weight: 300;
-	text-decoration: underline;
+	font-weight: 700;
+	text-decoration: none;
 }
 
 
-.footer {
-	margin-top: 13vh;
+.fondo {
 	background: lightgray;
 }
 
@@ -184,7 +227,8 @@ ul {
 	margin-left: 1vh;
 	margin-top: 1vh;
 	margin-bottom: 1.3vh;
-	font-family: 'IBM Plex Serif', serif;
+	font-family: 'Chivo';
+	font-size: 0.6rem;
 }
 
 
@@ -202,7 +246,10 @@ ul {
 		font-size: 2rem;
 	}
 	.domanda {
-		font-size: 0.8rem;
+		font-size: 0.9rem;
+	}
+	.capitolo {
+		font-size: 0.9rem;
 	}
 	.risposta {
 		font-size: 0.9rem;
@@ -235,10 +282,13 @@ ul {
 		line-height: 3vh;
 	}
 	.domanda {
-		font-size: 0.9rem;
+		font-size: 1.2rem;
+	}
+	.capitolo {
+		font-size: 1.2rem;
 	}
 	.risposta {
-		font-size: 1.2rem;
+		font-size: 1rem;
 		line-height: 3.7vh;
 	}
 	.info {
