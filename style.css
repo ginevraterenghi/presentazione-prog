@@ -3,8 +3,7 @@ html {
 }
 
 main {
-	position: relative;
-	top: 100px;
+	margin-top: 100px;
 }
 
 /*! ------------- sezioni -------------- */
@@ -225,8 +224,16 @@ ul {
 
 .info {
 	margin-left: 1vh;
-	margin-top: 1vh;
-	margin-bottom: 1.3vh;
+	margin-top: 2vh;
+	margin-bottom: 0.2vh;
+	font-family: 'Chivo';
+	font-size: 0.6rem;
+}
+
+.info2 {
+	margin-left: 1vh;
+	margin-top: 0.2vh;
+	margin-bottom: 2.6vh;
 	font-family: 'Chivo';
 	font-size: 0.6rem;
 }
@@ -256,6 +263,9 @@ ul {
 		line-height: 3vh;
 	}
 	.info {
+		font-size: 0.7rem;
+	}
+	.info2 {
 		font-size: 0.7rem;
 	}
 }
@@ -292,6 +302,9 @@ ul {
 		line-height: 3.7vh;
 	}
 	.info {
+		font-size: 0.9rem;
+	}
+	.info2 {
 		font-size: 0.9rem;
 	}
 }
