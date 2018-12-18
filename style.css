@@ -4,6 +4,7 @@ html {
 
 main {
 	margin-top: 100px;
+	margin-bottom: 5vh;
 }
 
 /*! ------------- sezioni -------------- */
@@ -25,15 +26,6 @@ main {
 	padding-bottom: 2vh;
 }
 
-/*
-.sectionMiddle {
-  background:green;
-  margin-top:140px;
-  padding-left:0px;
-  padding-right:0px;
-}
-*/
-
 #datasonification {
 	margin-top: 5vh;
 /*	background: purple;*/
@@ -49,14 +41,6 @@ main {
 /*	background: purple;*/
 }
 
-/*
-.sectionDown {
-  background:lightblue;
-  margin-top:30px;
-  padding-left:0px;
-  padding-right:0px;
-}
-*/
 
 /*! ------------------------------------------ NAVBAR ------------------------------------------ */
 
@@ -68,9 +52,15 @@ main {
 }
 
 
+.navbar-toggler {
+/*	background-image: './assets/hamburger.png';*/
+	background-color: transparent;
+	border: transparent;
+}
+
+
 .navbar-toggler-icon {
 /*	background-image: './assets/hamburger.png';*/
-	background-color: white;
 	border: 1px solid red;
 }
 
