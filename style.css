@@ -95,9 +95,22 @@ main {
 	font-weight: 300;
 }
 
+
+
 /* Change background on mouse-over */
 
 .navbar a:hover {
+	color: red;
+	text-decoration: none;
+	font-family: 'Chivo';
+	font-weight: 700;
+}
+
+.navbar a:visited {
+  	color: pink;
+}
+
+.navbar a:active {
 	color: red;
 	text-decoration: none;
 	font-family: 'Chivo';
