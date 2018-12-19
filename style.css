@@ -2,6 +2,10 @@ html {
 	--video-width: 495px;
 }
 
+.container {
+	padding-left:0px;
+}
+
 main {
 	margin-top: 100px;
 	margin-bottom: 5vh;
@@ -23,7 +27,7 @@ main {
 	font-weight: 300;
 	/*	background: lightgreen;*/
 	padding-top: 2vh;
-	padding-bottom: 2vh;
+/*	padding-bottom: 2vh;*/
 }
 
 #datasonification {
@@ -37,8 +41,7 @@ main {
 }
 
 #keysound {
-	margin-top: 5vh;
-	/*	background: purple;*/
+/*		background: purple;*/
 }
 
 
@@ -153,15 +156,14 @@ main {
 /*! ------------------------------------------  rules.html ------------------------------------------ */
 
 .domanda {
-	/*intro for paragraph*/
 	margin-top: 2.8vh;
 	font-family: 'Chivo';
 	font-weight: 300;
-	/*	background: yellow;*/
 	color: lightgray;
 }
 
 .red {
+	margin-top: 0vh;
 	color: red;
 	font-weight: 700;
 }
@@ -207,10 +209,12 @@ dd {
 .esempi {
 	font-family: 'Chivo';
 	font-weight: 300;
+	font-style:italic;
 	color: black
 }
 
 .esempi:hover {
+	font-style: normal;
 	color: black;
 	font-weight: 700;
 	text-decoration: none;
@@ -219,6 +223,17 @@ dd {
 
 #fondo {
 	background: lightgray;
+}
+
+#duea {
+	padding-top: 10vh;
+}
+#unob {
+	padding-top: 10vh;
+}
+#dueb {
+	padding-top: 10vh;
+	padding-top: 10vh;
 }
 
 
@@ -247,6 +262,16 @@ dd {
 
 .mappa {
 	width: 370px;
+}
+
+.district {
+	margin-left: 5vh;
+	margin-top: 1vh;
+	font-family: 'Chivo';
+	font-weight: 100;
+	font-style:italic;
+	color: black;
+	font-size: 0.8rem;
 }
 
 
@@ -280,10 +305,10 @@ dd {
 		line-height: 3vh;
 	}
 	.info {
-		font-size: 0.7rem;
+		font-size: 0.5rem;
 	}
 	.info2 {
-		font-size: 0.7rem;
+		font-size: 0.5rem;
 	}
 }
 
@@ -315,20 +340,20 @@ dd {
 		line-height: 3vh;
 	}
 	.domanda {
-		font-size: 1.2rem;
+		font-size: 1.1rem;
 	}
 	.capitolo {
-		font-size: 1.2rem;
+		font-size: 1rem;
 	}
 	.risposta {
 		font-size: 1rem;
 		line-height: 3.7vh;
 	}
 	.info {
-		font-size: 0.9rem;
+		font-size: 0.7rem;
 	}
 	.info2 {
-		font-size: 0.9rem;
+		font-size: 0.7rem;
 	}
 }
 
