@@ -3,7 +3,7 @@ html {
 }
 
 .container {
-	padding-left:0px;
+	padding-left:15px;
 }
 
 main {
@@ -106,9 +106,6 @@ main {
 	font-weight: 700;
 }
 
-.navbar a:visited {
-  	color: pink;
-}
 
 .navbar a:active {
 	color: red;
@@ -232,6 +229,11 @@ dd {
 	font-weight: 700;
 	text-decoration: none;
 }
+
+.esempi:visited {
+  	text-decoration: line-through;
+}
+
 
 
 #fondo {
