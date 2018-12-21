@@ -2,6 +2,11 @@ html {
 	--video-width: 295px;
 }
 
+header {
+	margin-left: 1vh;
+	padding-right: 1vh;
+}
+
 .container {
 	padding-left:15px;
 	padding-right:15px;
@@ -22,11 +27,11 @@ main {
 	}
 
 
-/*
+
 #link_appearance_nav {
-		padding-left: 10vh;
+		padding-right: 30vh;
 	}
-*/
+
 
 
 /*! ------------- sezioni -------------- */
@@ -42,7 +47,7 @@ main {
 
 .intro {
 	font-family: 'Chivo';
-	font-size: 0.8rem;
+	font-size: 0.9rem;
 	font-weight: 300;
 	/*	background: lightgreen;*/
 	padding-top: 1vh;
@@ -209,6 +214,24 @@ main {
 	font-size: 0.7rem;
 }
 
+.scenario a {
+	/*	background: pink;*/
+	margin-left: 1vh;
+	margin-top: 1vh;
+	font-family: 'Chivo';
+	font-style: italic;
+	font-weight: 300;
+	font-size: 0.9rem;
+	color: black;
+}
+
+.scenario a:hover {
+	font-style: normal;
+	color: black;
+	font-weight: 700;
+	text-decoration: none;
+}
+
 
 
 .rispvideo {
@@ -307,9 +330,8 @@ dd {
 	margin-top: 1vh;
 	font-family: 'Chivo';
 	font-weight: 100;
-	font-style:italic;
 	color: black;
-	font-size: 0.8rem;
+	font-size: 0.7rem;
 }
 
 
@@ -348,7 +370,11 @@ dd {
 	.info2 {
 		font-size: 0.5rem;
 	}
-	
+
+	#link_appearance_nav {
+		padding-right: 10vh;
+	}
+
 }
 
 /*// Medium devices (tablets, 768px and up)*/
@@ -363,9 +389,7 @@ dd {
 	.mappa {
 		width: 500px;
 	}
-	#link_appearance_nav {
-		padding-left: 60px;
-	}
+
 	
 }
 
