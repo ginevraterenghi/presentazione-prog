@@ -199,9 +199,17 @@ main {
 	font-size: 0.8rem;
 }
 
-.red {
-	margin-top: 0vh;
+.impo {
 	color: red;
+	font-weight: 700;
+}
+
+.red {
+	font-family: 'Chivo';
+	font-size: 0.8rem;
+	margin-top: 1vh;
+	margin-left: 5vh;
+	color: black;
 	font-weight: 700;
 }
 
@@ -286,6 +294,11 @@ dd {
 	background: lightgray;
 }
 
+/*
+#unoa {
+	padding-top: 10vh;
+}
+*/
 #duea {
 	padding-top: 10vh;
 }
