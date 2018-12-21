@@ -215,7 +215,8 @@ main {
 
 .risposta {
 	/*	background: pink;*/
-	margin-left: 5vh;
+	margin-left: 3vh;
+	margin-right: 3vh;
 	margin-top: 1vh;
 	font-family: 'Chivo';
 	font-weight: 300;
