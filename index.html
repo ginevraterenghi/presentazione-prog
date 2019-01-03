@@ -17,7 +17,7 @@
 
 	<link href="https://fonts.googleapis.com/css?family=Archivo+Black" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Chivo:300,400,700,900" rel="stylesheet">
-	
+
 	<link href="https://fonts.googleapis.com/css?family=Sarabun:200,300,400,400i,500,600,700" rel="stylesheet">
 
 	<!-- Bootstrap CSS -->
@@ -42,36 +42,50 @@
 		</div>
 	</header>
 
-	<main class="container">
+	<main class="container col-7">
 		<div class="intro">
-			In questo sito cerchiamo 1/di introdurre alla data sonification [Data Sonification] 2/di spiegare il nostro progetto [Project] 3/di fornire una legenda dei suoni [Sound Key]
+			We are two designers from Politecnico di Milano, collaborating with two Water Management Researcher at Singapore University of Technology and Design. We are working to <div class="speciale">sonifying Cyber Attacks on Water distribution System.</div> 
+			<br>This website is pointed to people we asked to test our prototype so, thank you for your collaboration. The aim of the website is to introduce the Data Sonification, providing some explanation and examples, and then, express the project idea. You can find here also the sond reading files, that help you before the test to understand the sound used and the kind of data they represent. You can consult these information that will be available during the whole test period. 
+			<br>We hope to have provided here all the material you need, but please, contact us if something missing.
 		</div>
 
 		<div id="datasonification">
 			<div class="domanda impo">Data Sonification</div>
-		
+
 			<div class="rispvideo">
 				<iframe class="video" src="https://www.youtube.com/embed/3juXPT4AHaQ"></iframe>
 			</div>
-				<div class="domanda">What Data Sonification is</div>
+			<div class="domanda">What is Data Sonification?</div>
 			<div class="risposta">
-				Sonification is the use of non-speech audio to convey information or perceptualize data. Auditory perception has advantages in temporal, spatial, amplitude, and frequency resolution that open possibilities as an alternative or complement to visualization techniques.
-				<br>For example, the rate of clicking of a Geiger counter conveys the level of radiation in the immediate vicinity of the device. <br>Though many experiments with data sonification have been explored in forums such as the International Community for Auditory Display (ICAD), sonification faces many challenges to widespread use for presenting and analyzing data. For example, studies show it is difficult, but essential, to provide adequate context for interpreting sonifications of data. Many sonification attempts are coded from scratch due to the lack of a flexible tool for sonification research and data exploration.<br>Many different components can be altered to change the user's perception of the sound, and in turn, their perception of the underlying information being portrayed. Often, an increase or decrease in some level in this information is indicated by an increase or decrease in pitch, amplitude or tempo, but could also be indicated by varying other less commonly used components. For example, a stock market price could be portrayed by rising pitch as the stock price rose, and lowering pitch as it fell. To allow the user to determine that more than one stock was being portrayed, different timbres or brightnesses might be used for the different stocks, or they may be played to the user from different points in space, for example, through different sides of their headphones.<br>Many studies have been undertaken to try to find the best techniques for various types of information to be presented, and as yet, no conclusive set of techniques to be used has been formulated. As the area of sonification is still considered to be in its infancy, current studies are working towards determining the best set of sound components to vary in different situations.
+				Sonification is traditionally defined as the use of non-speech audio to convey information or perceptualize data [the Sonification Handbook...]. <br>Data Sonification is a particular type of data representation in which data are mapped to sounds to communicate information to the listener. A field of studies since the early 1990s, sonification is still mainly confined to a specialized usage in scientific investigation and process monitoring (seismology, astronomy, real time monitoring in healthcare). <br>Sonification practices range from Audification - the direct translation of waves of various nature (seismic waves, brain waves) into audible waves (i.e., waves oscillating in the audible range of 20 Hz to 20,000 Hz); to Parameter Mapping - the more complex association of data characteristics to sound parameters (i.e., pitch, amplitude, tempo, timbre).
 			</div>
-			<div class="domanda">Why Data Sonification could be useful</div>
+			<div class="domanda">Why Sound?</div>
 			<div class="risposta">
-				[1] as a design tool, it conveys both information and emotion as a narrative tool, it enriches the message both at the functional and the emotional level, it builds a story
-			</div>
-			<div class="risposta">
-				[2] it intervenes where other senses encounter their limits: the border of the screen, the need to focus active attention (example)
+				Auditory perception has specific advantages in temporal, spatial, amplitude, and frequency resolution that open possibilities as an alternative or complement to visualization techniques. Despite the undeniable predominance of vision in human culture, sound is already successfully present in a variety of contexts of our experience:
 			</div>
 			<div class="risposta">
-				[3] it provides a continuous, interactive feedback to our actions: we notice it when it is not there (example)
+				<div class="speciale">*</div> as a design tool, it conveys both information and emotion. Think of the sound everyday objects’ emit when we use them: the sound of a specific kettle we have been using for 10 years would alert us when water is ready but would also be part of our emotional home landscape, whether we love it or hate it;
 			</div>
 			<div class="risposta">
-				[4] it leverages your peripheral attention (example)
+				<div class="speciale">*</div> as a narrative tool, it enriches the message both at the functional and the emotional level, it builds a story. Think of cinema, and how changing the style of a soundtrack could transform a scene charged with tense expectation in the contemplation of a romantic scenery;
 			</div>
+			<div class="risposta">
+				<div class="speciale">*</div> perceptually, it intervenes where other senses encounter their limits: the screen has borders that the soundtracks does not have. Think of an indoor scene where the protagonist is lying in bed, the sound of chirping birds coming from outside, and then, suddenly, a terrified scream. How much information are we getting only through sound?
+			</div>
+			<div class="risposta">
+				<div class="speciale">*</div> it provides a continuous, interactive feedback to our actions: we understand through experience if an action we are doing is performing its task or not: is the car engine working properly? Is the vacuum cleaner stuck? Is the camera taking photos?
+			</div>
+			<div class="risposta">
+				<div class="speciale">*</div> it leverages your peripheral attention, thus, we can perform other actions or focus our attention elsewhere while monitoring the situation. Is our baby crying in the other room? Is it raining? Is our neighbor at home upstairs? We would know, while sitting on the sofa in the living room.
+			</div>
+			<div class="domanda">The challenges of Sonification</div>
+			<div class="risposta">
+				The Geiger counter is among the most successful cases of Data Sonification: the rate of clicking of a Geiger counter conveys the level of radiation in the immediate vicinity of the device. The higher the rate, the higher the amount of radiation. 
+				<br>When we move to more ambitious representations of data through sound, though, it is often difficult for the average user to grasp the connection between the data and the sounds, compared to what it is to read a - even complex - diagram on the same data. 
+				<br>A reason often quoted as cause of this difficulty is, that sonification lacks a wider context, a general training that visualization have benefitted over the centuries. Our school education, our daily jobs, our communication, is mainly visual. Other reasons might related to the lack of proper technical equipment to diffuse the sonification: how do we listen to a data sonification in a real world environment to perform a daily task? As we all know, sound in digital products can be annoying for us, or for those around us.
+				<br>More, sonification projects do not benefit of established, industry-level frameworks (Tableaux, etc) to build specific experiences. Many sonification attempts are coded from scratch for very specific needs and goals.
 
+			</div>
 
 		</div>
 		<div class="domanda">Examples</div>
@@ -99,33 +113,44 @@
 		<div class="container">
 			<div class="row fondo justify-content-center">
 
-				<div class="col-4">
+				<div class="col-3">
 					<div class="info">
-						Test Phase 01
+						Project Name
 					</div>
 					<div class="info">
-						Dicember 2018 - January 2019
+						Test Phase 01 // January 2019
+					</div>
+					<div class="info2">
+						mail di referenza
 					</div>
 				</div>
 
-				<div class="col-4">
+				<div class="col-3">
 					<div class="info">
 						Project by:
 					</div>
 					<div class="info">
-						1
+						Sara Lenzi - Ginevra Terenghi
 					</div>
 					<div class="info2">
-						2
+						Stefano Galelli - Riccardo Taormina
 					</div>
 				</div>
 
-				<div class="col-4">
+				<div class="col-2">
 					<div class="info">
 						Design Departement
 					</div>
 					<div class="info">
 						<img class="footer_img" src="assets/logo-polimi.png" class="footer_img">
+					</div>
+				</div>
+				<div class="col-2">
+					<div class="info">
+						Science Departement
+					</div>
+					<div class="info">
+						<img class="footer_img" src="assets/logo-singapore.png" class="footer_img">
 					</div>
 				</div>
 
