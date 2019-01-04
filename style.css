@@ -1,5 +1,5 @@
 html {
-	--video-width: 295px;
+	--video-width: 200px;
 }
 
 header {
@@ -118,9 +118,18 @@ main {
 	padding: 2vh;
 	text-decoration: none;
 	font-family: 'Chivo';
-	font-weight: 300;
 }
+
+.slim {
+    font-weight: 300;
+}
+
+.ciccio {
+    font-weight: 700;
+}
+
 /*
+
 
 .nav a {
 	float: left;
@@ -144,17 +153,6 @@ main {
 	font-family: 'Chivo';
 	font-weight: 700;
 }
-
-
-
-.navbar a:active {
-	color: red;
-	text-decoration: none;
-	font-family: 'Chivo';
-	font-weight: 700;
-}
-
-
 
 .capitolo {
 	color: black;
@@ -254,7 +252,7 @@ main {
 
 .rispvideo {
 	background: transparent;
-	margin-left: 5vh;
+	margin-left: 3vh;
 	margin-top: 3vh;
 	/*	height:100%;*/
 }
@@ -404,7 +402,7 @@ dd {
 
 @media (min-width: 768px) {
 	html {
-		--video-width: 460px;
+		--video-width: 300px;
 	}
 	.slide {
 		width: 700px;
@@ -420,7 +418,7 @@ dd {
 
 @media (min-width: 992px) {
 	html {
-		--video-width: 880px;
+		--video-width: 400px;
 	}
 	.footer_img {
 		width: 130px;
@@ -455,6 +453,6 @@ dd {
 
 @media (min-width: 1200px) {
 	html {
-		--video-width: 1060px;
+		--video-width: 500px;
 	}
 }
