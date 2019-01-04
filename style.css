@@ -50,11 +50,11 @@ main {
 .intro {
 	font-family: 'Montserrat';
 	font-size: 0.9rem;
-	font-weight: 700;
-	/*	background: lightgreen;*/
+	font-weight: 600;
 	padding-top: 1vh;
 /*	padding-bottom: 2vh;*/
 	text-align:justify;
+	line-height: 1.7rem;
 }
 
 .speciale {
@@ -66,7 +66,6 @@ main {
 
 #datasonification {
 	margin-top: 5vh;
-	/*	background: purple;*/
 }
 
 #project {
@@ -201,7 +200,15 @@ figcaption {
 	font-family: 'ariah';
 	color: black;
 	text-align: left;
-	font-size: 1.7rem;
+	font-size: 0rem;
+}
+
+.name2 {
+	margin-top: 0vh;
+	font-family: 'ariah';
+	color: black;
+	text-align: left;
+	font-size: 1.1rem;
 }
 
 
@@ -392,10 +399,14 @@ dd {
 	}
 	.intro {
 		font-size: 0.9rem;
-		line-height: 3vh;
+		line-height: 1.9rem;
+		font-weight: 700rem;
 	}
 	.name {
-		font-size: 2rem;
+		font-size: 0rem;
+	}
+	.name2 {
+		font-size: 1.5rem;
 	}
 	.domanda {
 		font-size: 0.9rem;
@@ -405,7 +416,6 @@ dd {
 	}
 	.risposta {
 		font-size: 0.9rem;
-		line-height: 3vh;
 	}
 	.info {
 		font-size: 0.4rem;
@@ -435,7 +445,12 @@ dd {
 	.mappa {
 		width: 500px;
 	}
-
+	.name {
+		font-size: 0rem;
+	}
+	.name2 {
+		font-size: 1.7rem;
+	}
 	
 }
 
@@ -450,11 +465,15 @@ dd {
 		height: auto;
 	}
 	.name {
-		font-size: 2.3rem;
+		font-size: 1.5rem;
+	}
+	.name2 {
+		font-size: 0rem;
 	}
 	.intro {
 		font-size: 1rem;
-		line-height: 3.7vh;
+		line-height: 2rem;
+		font-weight: 700;
 	}
 	.domanda {
 		font-size: 1.1rem;
@@ -464,7 +483,6 @@ dd {
 	}
 	.risposta {
 		font-size: 1rem;
-		line-height: 3.7vh;
 	}
 	.info {
 		font-size: 0.7rem;
@@ -482,5 +500,11 @@ dd {
 @media (min-width: 1200px) {
 	html {
 		--video-width: 500px;
+	}
+	.name {
+		font-size: 2rem;
+	}
+	.name2 {
+		font-size: 0rem;
 	}
 }
