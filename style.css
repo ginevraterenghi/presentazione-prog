@@ -45,10 +45,12 @@ main {
 }
 */
 
+
+
 .intro {
-	font-family: 'Chivo';
+	font-family: 'Montserrat';
 	font-size: 0.9rem;
-	font-weight: 300;
+	font-weight: 900;
 	/*	background: lightgreen;*/
 	padding-top: 1vh;
 /*	padding-bottom: 2vh;*/
@@ -58,7 +60,7 @@ main {
 .speciale {
 	font-family: 'Chivo';
 	font-size: 0.9rem;
-	font-weight: 600;
+	font-weight: 900;
 	display: inline;
 }
 
@@ -224,8 +226,8 @@ main {
 	margin-left: 3vh;
 	margin-right: 3vh;
 	margin-top: 1vh;
-	font-family: 'Chivo';
-	font-weight: 300;
+	font-family: 'Montserrat';
+	font-weight: 400;
 	font-size: 0.7rem;
 	text-align:justify;
 }
@@ -372,6 +374,10 @@ dd {
 	.mappa {
 		width: 400px;
 	}
+	.intro {
+		font-size: 0.9rem;
+		line-height: 3vh;
+	}
 	.name {
 		font-size: 2rem;
 	}
@@ -429,7 +435,7 @@ dd {
 	}
 	.intro {
 		font-size: 1rem;
-		line-height: 3vh;
+		line-height: 3.7vh;
 	}
 	.domanda {
 		font-size: 1.1rem;
