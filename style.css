@@ -8,7 +8,7 @@ header {
 }
 
 .container {
-	padding-left:0px;
+	padding-left:5vh;
 	padding-right: 5vh;
 }
 
@@ -18,7 +18,7 @@ main {
 }
 
 .footer_img {
-		width: 90px;
+		width: 60px;
 		height: auto;
 	}
 
@@ -326,7 +326,7 @@ dd {
 	margin-bottom: 0.2vh;
 	font-family: 'Chivo';
 	font-weight: 200;
-	font-size: 0.6rem;
+	font-size: 0.4rem;
 }
 
 .info2 {
@@ -335,7 +335,7 @@ dd {
 	margin-bottom: 2.6vh;
 	font-family: 'Chivo';
 	font-weight: 200;
-	font-size: 0.6rem;
+	font-size: 0.4rem;
 }
 
 .slide {
@@ -386,10 +386,10 @@ dd {
 		line-height: 3vh;
 	}
 	.info {
-		font-size: 0.5rem;
+		font-size: 0.4rem;
 	}
 	.info2 {
-		font-size: 0.5rem;
+		font-size: 0.4rem;
 	}
 
 	#link_appearance_nav {
