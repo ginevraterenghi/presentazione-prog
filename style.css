@@ -50,7 +50,7 @@ main {
 .intro {
 	font-family: 'Montserrat';
 	font-size: 0.9rem;
-	font-weight: 900;
+	font-weight: 700;
 	/*	background: lightgreen;*/
 	padding-top: 1vh;
 /*	padding-bottom: 2vh;*/
@@ -60,7 +60,7 @@ main {
 .speciale {
 	font-family: 'Chivo';
 	font-size: 0.9rem;
-	font-weight: 900;
+	font-weight: 700;
 	display: inline;
 }
 
@@ -124,10 +124,17 @@ main {
 
 .slim {
     font-weight: 300;
+	font-style: italic;
 }
 
 .ciccio {
     font-weight: 700;
+	font-style: normal;
+}
+
+figcaption {
+/*    padding-top: 2vh;*/
+	padding-bottom: 1vh;
 }
 
 /*
@@ -153,6 +160,7 @@ main {
 	color: red;
 	text-decoration: none;
 	font-family: 'Chivo';
+	font-style: normal;
 	font-weight: 700;
 }
 
@@ -281,8 +289,8 @@ dd {
 
 
 .esempi {
-	font-family: 'Chivo';
-	font-weight: 300;
+	font-family: 'Montserrat';
+	font-weight: 100;
 	font-style:italic;
 	color: black
 }
@@ -331,11 +339,19 @@ dd {
 	font-size: 0.4rem;
 }
 
+.info1 {
+	margin-left: 1vh;
+	margin-top: 2vh;
+	margin-bottom: 0.2vh;
+	font-family: 'Montserrat';
+	font-weight: 200;
+	font-size: 0.4rem;
+}
 .info2 {
 	margin-left: 1vh;
 	margin-top: 0.2vh;
 	margin-bottom: 2.6vh;
-	font-family: 'Chivo';
+	font-family: 'Montserrat';
 	font-weight: 200;
 	font-size: 0.4rem;
 }
@@ -394,6 +410,9 @@ dd {
 	.info {
 		font-size: 0.4rem;
 	}
+	.info1 {
+		font-size: 0.4rem;
+	}
 	.info2 {
 		font-size: 0.4rem;
 	}
@@ -448,6 +467,9 @@ dd {
 		line-height: 3.7vh;
 	}
 	.info {
+		font-size: 0.7rem;
+	}
+	.info1 {
 		font-size: 0.7rem;
 	}
 	.info2 {
