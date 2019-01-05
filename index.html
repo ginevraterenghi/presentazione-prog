@@ -14,7 +14,7 @@
 
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,400i,500,600,700,900" rel="stylesheet">
 
-	
+
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
@@ -40,9 +40,12 @@
 
 	<main class="container col-md-7">
 		<div class="intro">
-			We are two designers from Politecnico di Milano, collaborating with two Water Management Researcher at Singapore University of Technology and Design. We are working to sonifying Cyber Attacks on Water distribution System.
-			<br>This website is pointed to people we asked to test our prototype so, thank you for your collaboration. The aim of the website is to introduce the Data Sonification, providing some explanation and examples, and then, express the project idea. You can find here also the sond reading files, that help you before the test to understand the sound used and the kind of data they represent. You can consult these information that will be available during the whole test period. 
-			<br>We hope to have provided here all the material you need, but please, contact us if something missing.
+			Dear participants, first of all we would like to thank you for having agreed on taking part in this design experiment. This experimental phase is meant to conclude the first phase of of development of the project “Sonifying cyber-attacks in water plants” (which we will describe later on).
+			<br>The project is a collaboration between the Politecnico di Milano - Design Department and SUTD - Singapore University of Technology and Design.
+			<br>We are Prof. Stefano Galelli and Dr. Riccardo Taormina from SUTD and Sara Lenzi (PhD candidate) and Ginevra Terenghi (Master’s graduating student) from Density Design Lab, PoliMI.
+		</div>
+		<div class="intro">
+			This website is meant to be a online resource for all the participants to the experiment. The aim is to introduce the concept of Data Sonification, providing some context and examples you can review, and to introduce the project’s concept. You will also fine here a sample of the sound files we will use (and you will hear) during the test, in order to help getting familiar with the sound content and understand the key behind the mapping of data to sound. All the information will be available to you throughout the duration of the experiment. We are confident that the material provided is enough for you to get started, but please feel free to contact us if you feel something’s missing.
 		</div>
 
 		<div id="datasonification">
@@ -53,7 +56,9 @@
 			</div>
 			<div class="domanda"></div>
 			<div class="risposta">
-				Sonification is traditionally defined as the use of non-speech audio to convey information or perceptualize data [the Sonification Handbook...]. <br>Data Sonification is a particular type of data representation in which data are mapped to sounds to communicate information to the listener. A field of studies since the early 1990s, sonification is still mainly confined to a specialized usage in scientific investigation and process monitoring (seismology, astronomy, real time monitoring in healthcare). <br>Sonification practices range from Audification - the direct translation of waves of various nature (seismic waves, brain waves) into audible waves (i.e., waves oscillating in the audible range of 20 Hz to 20,000 Hz); to Parameter Mapping - the more complex association of data characteristics to sound parameters (i.e., pitch, amplitude, tempo, timbre).
+				Sonification is traditionally defined as the use of non-speech audio to convey information or perceptualize data (The Sonification Handbook, Edts T. Hermann, A. Hunt, J. G. Neuhoff. Logos Publishing House, Berlin 2011, Nov 2011).
+				<br>Data Sonification is a particular type of data representation in which data are mapped to sounds to communicate information to the listener. A field of studies since the early 1990s, sonification is still mainly confined to a specialized usage in scientific investigation and process monitoring (seismology, astronomy, real time monitoring in healthcare). Sonification practices range from Audification - the direct translation of waves of various nature (seismic waves, brain waves) into audible waves (i.e., waves oscillating in the audible range of 20 Hz to 20,000 Hz); to Parameter Mapping - the more complex association of data characteristics to sound parameters (i.e., pitch, amplitude, tempo, timbre).
+
 			</div>
 			<div class="domanda impo">Why Sound?</div>
 			<div class="risposta">
@@ -76,10 +81,11 @@
 			</div>
 			<div class="domanda impo">The challenges of Sonification</div>
 			<div class="risposta">
-				The Geiger counter is among the most successful cases of Data Sonification: the rate of clicking of a Geiger counter conveys the level of radiation in the immediate vicinity of the device. The higher the rate, the higher the amount of radiation. 
-				<br>When we move to more ambitious representations of data through sound, though, it is often difficult for the average user to grasp the connection between the data and the sounds, compared to what it is to read a - even complex - diagram on the same data. 
-				<br>A reason often quoted as cause of this difficulty is, that sonification lacks a wider context, a general training that visualization have benefitted over the centuries. Our school education, our daily jobs, our communication, is mainly visual. Other reasons might related to the lack of proper technical equipment to diffuse the sonification: how do we listen to a data sonification in a real world environment to perform a daily task? As we all know, sound in digital products can be annoying for us, or for those around us.
-				<br>More, sonification projects do not benefit of established, industry-level frameworks (Tableaux, etc) to build specific experiences. Many sonification attempts are coded from scratch for very specific needs and goals.
+				The Geiger counter is among the most successful cases of Data Sonification: the rate of clicking of a Geiger counter conveys the level of radiation in the immediate vicinity of the device. The higher the rate, the higher the amount of radiation. When we move to more ambitious representations of data through sound, though, it is often difficult for the average user to grasp the connection between the data and the sounds, compared to what it is to read a - even complex - diagram on the same data. A reason often quoted as cause of this difficulty is, that sonification lacks a wider context, a general training that visualization have benefitted over the centuries. Our school education, our daily jobs, our communication, is mainly visual. Other reasons might related to the lack of proper technical equipment to diffuse the sonification: how do we listen to a data sonification in a real world environment to perform a daily task? As we all know, sound in digital products can be annoying for us, or for those around us. More, sonification projects do not benefit of established, industry-level frameworks (Tableaux, etc) to build specific experiences. Many sonification attempts are coded from scratch for very specific needs and goals.
+			</div>
+			<div class="domanda impo">Parameter Mapping<div class="sub"> // the technique we used in this project</div></div>
+			<div class="risposta">
+				Many different components can be altered to change the user's perception of the sound, and in turn, their perception of the underlying information being portrayed. Often, an increase or decrease in some level in this information is indicated by an increase or decrease in pitch, amplitude or tempo, but could also be indicated by varying other less commonly used components. For example, a stock market price could be portrayed by rising pitch as the stock price rose, and lowering pitch as it fell. To allow the user to determine that more than one stock was being portrayed, different timbres or brightnesses might be used for the different stocks, or they may be played to the user from different points in space, for example, through different sides of their headphones. <br>"Many studies have been undertaken to try to find the best techniques for various types of information to be presented, and as yet, no conclusive set of techniques to be used has been formulated. As the area of sonification is still considered to be in its infancy, current studies are working towards determining the best set of sound components to vary in different situations." [from <a class="ref" href="https://en.wikipedia.org/wiki/Sonification">Sonification page</a> on Wikipedia]
 
 			</div>
 
@@ -105,7 +111,7 @@
 
 
 
-<footer id="fondo">
+	<footer id="fondo">
 		<div class="container">
 			<div class="row fondo justify-content-center">
 

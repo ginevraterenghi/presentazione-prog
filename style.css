@@ -64,6 +64,16 @@ main {
 	display: inline;
 }
 
+.sub {
+	font-family: 'Chivo';
+	font-size: 0.8rem;
+	font-weight: 300;
+	display: inline;
+	color: lightgray;
+}
+
+
+
 #datasonification {
 	margin-top: 5vh;
 }
@@ -244,7 +254,7 @@ figcaption {
 	font-family: 'Montserrat';
 	font-weight: 400;
 	font-size: 0.7rem;
-	text-align:justify;
+	text-align: justify;
 	line-height: 1.3rem;
 }
 
@@ -295,6 +305,20 @@ dd {
 	margin-bottom: 0px;
 }
 
+
+.ref {
+	font-family: 'Montserrat';
+	font-weight: 100;
+	font-style:italic;
+	color: black
+}
+
+.ref:hover {
+	font-style: normal;
+	color: black;
+	font-weight: 600;
+	text-decoration: none;
+}
 
 .esempi {
 	font-family: 'Montserrat';
@@ -412,6 +436,9 @@ dd {
 	.domanda {
 		font-size: 0.9rem;
 	}
+	.sub {
+		font-size: 0.9rem;
+	}
 	.capitolo {
 		font-size: 0.9rem;
 	}
@@ -478,6 +505,9 @@ dd {
 		font-weight: 700;
 	}
 	.domanda {
+		font-size: 1.1rem;
+	}
+	.sub {
 		font-size: 1.1rem;
 	}
 	.capitolo {
