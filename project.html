@@ -32,101 +32,55 @@
 		<div class="name">sonifying cyber-attacks in water plants</div>
 		<div class="name2">s-c-a-w-p</div>
 		<div class="collapse navbar-collapse justify-content-end" id="navbar">
-			<a class="slim" href="index.html">DATA SONIFICATION</a>
+			<a class="slim" href="index.html">SONIFICATION</a>
 			<a class="ciccio" href="project.html">PROJECT</a>
+			<a class="slim" href="test.html">TEST</a>
 		</div>
 	</header>
 
 	<main class="container col-md-7">
-		<div class="intro">
-			Riguardo il progetto. Cos'è/ a cosa serve/ quanto approfondito fare questa parte?<br>quanto dobbiamo spiegare?<br>dobbiamo inserire anche slides presentazione?
+		<div class="risposta">
+			The wider scope of the project is to develop and design an integrated sound and visual approach to the representation of complex data for decision-making. In this phase, the specific goal is to support analysts in the monitoring, understanding, reacting and possibly preventing cyber attacks on water supply systems. As you probably know, water supply systems worldwide are moving from physical to cyber-physical systems which include networked devices used for a best reliability and controllability. But the nature of these devices exposes the infrastructure to cyber threats. The goal of this project, based on a simulated data, is to enable analysts to control the condition in real time and verify if the system is under attack.
+			<br>In real world, the current approach displays data on multiple screens using different kinds of analytical diagrams that require, to be monitored, an operator’s full visual attention. During everyday’s work activities, though, this attention might be occupied by other tasks (answering the phone, talking to colleagues, performing analysis of historical data, writing reports…). Also, the artificial intelligence algorithms currently available are bound, for many reasons, to report a high number of false positive answers on attacks. When a false alarm sounds off too many times, the unwanted but understandable consequence (also a consequence of the psychological phenomenon known as alarm fatigue) is that the operator stops paying attention to the alarm itself, with potentially serious consequences should an emergency really occur. In the actual situation, therefore, the alert system cannot be considered reliable.
+			<br>The project, now at the end of its first phase, focussed on using sound to convey a “first layer” of information to the user. This first layer is meant to raise the user’s awareness on anomalies - their occurrence and the corresponding level of gravity. It should also facilitate the analyst in finding more detailed information, if needed, in the visual interface more effectively and efficiently. The final goal is to make the decision process faster and more efficient.
+			<br>This test aims to collect users’ feedback on the potentialities of sonification in this specific case; to understand if data are correctly understood; to understand which mapping scenario and which sound content among those presented are more appropriate for this purpose. After the experiment we will select and adjust the final prototype which we will test in a second phase coupled with the visual interface.
+
 		</div>
 
 
 
 		<div id="project">
-			<div class="domanda impo">Project</div>
+			<div class="domanda impo">The Project</div>
 			<div class="risposta">
-				Perchè usare la data sonification in questo progetto
+				The reason for using sound to represent the type of data we encounter in this field is well grounded in scientific literature. In particular, sound has been proven to be an efficient tool for real time process monitoring (see references ….). Additionally, sound is considered to be of advantage in identifying patterns in data as the human ear is very skilled in reacting to changes and repetitions in tempo. More, sound occupies a different communication/perceptual channel from the visual one, which as we have seen is, in this context, often overloaded. Additionally, sound typically occupies the periphery of our attention (i.e., we can hear and process sounds from the environment while performing other attention-demanding tasks). A sound can be brought to the center of our attention only if needed (reference…). Visual inputs, on the contrary, requires our central attention to be detected and understood. To sum it up, the goal of sonification in this project is to communicate the system status in real time in the most intuitive way.
 			</div>
 
 
-			<div class="domanda impo">C-Town Map</div>
+			<div class="domanda impo">The Scenario</div>
 			<div class="risposta">
-				Descrizione del contesto di progetto
+				We are referring to the water distribution system of a real-world, medium-sized city. On a regular day, operators of a water distribution system spend their time in the control room splitting between data analysis of historical data or specific events, routine tasks such as reports and admin, conversations with colleagues, and monitoring through about six to nine screens the activity and status of the network. The goal of monitoring is to become aware of any anomalous behavior in the hydraulic components - e.g. tanks overflow, reduction in pump speed, anomalous activation/deactivation of pumps. In case of an anomaly, a predefined protocol is in place to manage the emergency and/or escalate the alarm. In the presence of an anomaly, the operators should also be enabled to understand whether the problems can be attributed to a cyber attack to the system or to another type of failure.
+				<br>Our hypothetical setting imagines that a dedicated anomaly detection algorithm is in place in the control room, updating every hour on the status of the network regarding the possibility of a cyber attack. The operator monitors, through sound, the status of the network while he keeps
+				<br>INTRODURRE MAPPA
 			</div>
 			<img class="mappa" src="./assets/map.jpg">
 
-
-
-
-			<!--
-				<div class="domanda">Network Components</div>
-				<div class="risposta">
-					Intro alle variabili
-				</div>
-				<div class="risposta">
-					<ul>
-						<li>
-							[#7] Tanks
-							<dd>Variable: Water Level</dd>
-						</li>
-						<li>
-							[#11] Pumps
-							<dd>Variable: State</dd>
-							<dd>Variable: Flow</dd>
-						</li>
-						<li>
-							[#1] Valve
-							<dd>Variable: State</dd>
-							<dd>Variable: Flow</dd>
-						</li>
-						<li>
-							[#12] Junctions
-							<dd>Variable: Pressure</dd>
-						</li>
-					</ul>
-
-				</div>
--->
-
-			<div class="domanda impo">Data</div>
+			<div class="domanda impo">The Data</div>
 			<div class="risposta">
-				Breve descrizione dei dati ALGORITMO E ANOMALIA
-				<br>magari potremmo chiedere questo testo a Stefano e Riccardo
+				Data used in the project come from the various component of the water system network of our imaginary town (C-Town). We grouped data based on location: C-Town has five districts; data were grouped according of the districts. Every district is marked with “DMA-n” on the map and is recognizable by the district’s background color. In the network, each physical component of the water plant is equipped with a sensor which transmits information to the central SCADA System. The SCADA is located in the operation room and from it the analysts control the status of the whole network. The anomaly detection algorithm, developed at iTrust and used in this project, operates using the SCADA data and calculating the difference between incoming real data and predictive data based on the algorithm’s model. The model is based on a “normal” situation where the system does not present anomalous behaviour. Whenever real incoming data differ from the prediction of the model, the algorithm detects an anomaly. The more real data transmitted from the components are far from prediction the more the anomaly detected is serious.
+				<br>The system status considers five different levels, starting from zero - which means the status is healthy - to five which represents the highest level of anomaly.
 			</div>
 
-			<div class="domanda impo">Method</div>
+			<div class="domanda impo">Sound-Key</div>
 			<div class="risposta">
-				Abbiamo considerato insieme tutti i dati raggruppandoli per distretto. è stata considerata una soglia minima oltre la quale considerare il livello dell'anomalia allarmante e abbiamo mappato questa informazione usato diverse caratteristiche del suono
+				Below you will be presented with the sound key to the sonification you are about to test. Sounds are divided by Scenario [1 and 2] and Version [a= tuned sound, b=noise]. Therefore, you will have four different prototypes to test: 1a, 1b, 2a, 2b. Each district has been assigned a different sound, like a “sonic print” representing the district. How this sound behaves and changes during the sonification depends on the hourly data (= the level of anomaly).
+				<br>Here you find a demo track for each district. It will help you familiarize with the “voice” of each district that you will encounter down the road during the test. The prototypes will play all districts together (cause the system receives all data together), so expect the sounds you will hear to be more complex. Still, we believe that listening to these tracks before the test is an essential training to properly react to what the sonification is telling you. You can consult this sound ke any time, even during the testing sessions.
 			</div>
-
-			<div class="domanda impo">Concept</div>
-			<div class="risposta">
-				Ogni sonificazione vuole essere un appuntamento sonoro per gli analisti, che richiama la loro attenzione solo nel caso in cui vengono registrate anomalie nel sistema
-			</div>
-
-			<div class="domanda impo">Characteristics</div>
-			<div class="risposta">
-				La sonificazione è pensata con cadenza regolare di un’ora [seguendo la frequenza con cui i sensori mandano i dati al Sistema centrale]
-			</div>
-			<div class="risposta">
-				Ogni sonificazione rappresenta i dati corrispondenti all’istante in cui vengono registrati e trasmessi al Sistema centrale
-			</div>
-			<div class="risposta">
-				Ogni Distretto è caratterizzato da una identità sonora: un suono diverso oppure una caratteristica diversa dello stesso suono
-			</div>
-
-
-
-
-
+			
 			<div class="domanda impo">SCENARIO 1</div>
 			<div class="risposta">
-				Ogni Distretto è rappresentato da un suono la cui durata è prolungata proporzionalmente al livello di anomalia presente nei dati [il suono di un Distretto che non contiene Anomalie dura 1 secondo]
+				Each district is represented by a different sound. In this Scenario, the duration of each sound is is directly proportional to the level of the anomaly that the specific district presents, at a given time. The districts’ sounds start all together at the same time. Baseline duration for non - anomalous data/sound is 1 second. The longer the sound the bigger the problem is. The maximum duration is capped at ten seconds. This means that the level of anomalies in that district is at its highest.
 			</div>
-			<!--				<img class="slide" src=".assets/sp-len.jpg">-->
-
+			
 			<div id="unoa">
 				<div class="red">1-A [melodic length]</div>
 
@@ -237,7 +191,7 @@
 
 			<div class="domanda impo">SCENARIO 2</div>
 			<div class="risposta">
-				Ogni Distretto è rappresentato da un suono la cui ciclicità aumenta proporzionalmente al livello di anomalia presente nei dati [il suono di un Distretto che non contiene Anomalie suona solo una volta all’inizio]
+				Each district is represented by a different sound. In this Scenario, the level of anomaly is expressed by the frequency of loops of a sound. The districts’ sounds start all together at the same time. The standard duration of the whole sonification is capped at ten second. If the sounds are played only one time at the beginning, with no loops, no anomalies are detected (this means you will hear 1 second of sounds and 9 seconds of silence). If the sound of a specific district is repeated (if it “loops”), it means that something wrong is happening to the water system in that district. The more frequently a sound loops over the 10 seconds, the more alarming the district state is. 
 			</div>
 			<!--				<img class="slide" src=".assets/sp-len.jpg">-->
 
