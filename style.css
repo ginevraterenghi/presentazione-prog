@@ -245,6 +245,7 @@ figcaption {
 	font-weight: 400;
 	font-size: 0.7rem;
 	text-align:justify;
+	line-height: 1.3rem;
 }
 
 .scenario a {
@@ -416,6 +417,7 @@ dd {
 	}
 	.risposta {
 		font-size: 0.9rem;
+		line-height: 1.7rem;
 	}
 	.info {
 		font-size: 0.4rem;
@@ -483,6 +485,7 @@ dd {
 	}
 	.risposta {
 		font-size: 1rem;
+		line-height: 2rem;
 	}
 	.info {
 		font-size: 0.7rem;
