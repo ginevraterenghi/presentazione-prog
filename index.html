@@ -41,12 +41,10 @@
 
 	<main class="container col-md-7">
 		<div class="intro">
-			Dear participants, first of all we would like to thank you for having agreed on taking part in this design experiment. This experimental phase is meant to conclude the first phase of of development of the project “Sonifying cyber-attacks in water plants” (which we will describe later on).
+			Dear participants, first of all we would like to thank you for having agreed on taking part in this design experiment. This experimental phase is meant to conclude the first phase of development of the project “Sonifying cyber-attacks in water plants”, which we will describe later on.
 			<br>The project is a collaboration between the Politecnico di Milano - Design Department and SUTD - Singapore University of Technology and Design.
 			<br>We are Prof. Stefano Galelli and Dr. Riccardo Taormina from SUTD and Sara Lenzi (PhD candidate) and Ginevra Terenghi (Master’s graduating student) from Density Design Lab, PoliMI.
-		</div>
-		<div class="intro">
-			This website is meant to be a online resource for all the participants to the experiment. The aim is to introduce the concept of Data Sonification, providing some context and examples you can review, and to introduce the project’s concept. You will also fine here a sample of the sound files we will use (and you will hear) during the test, in order to help getting familiar with the sound content and understand the key behind the mapping of data to sound. All the information will be available to you throughout the duration of the experiment. We are confident that the material provided is enough for you to get started, but please feel free to contact us if you feel something’s missing.
+			<br>This website is meant to be a online resource for all the participants to the experiment. The aim is to introduce the concept of Data Sonification, providing some context and examples you can review, and to introduce the project’s idea. You will also fine here a sample of the sound files we will use (and you will hear) during the test, in order to help getting familiar with the sound content and understand the key behind the mapping of data to sound. All the information will be available to you throughout the duration of the experiment. We are confident that the material provided is enough for you to get started, but please feel free to contact us if you feel something’s missing.
 		</div>
 
 		<div id="datasonification">
@@ -65,30 +63,34 @@
 			<div class="risposta">
 				Auditory perception has specific advantages in temporal, spatial, amplitude, and frequency resolution that open possibilities as an alternative or complement to visualization techniques. Despite the undeniable predominance of vision in human culture, sound is already successfully present in a variety of contexts of our experience:
 			</div>
-			<div class="risposta">
+			<div class="rispostain">
 				<div class="speciale impo">*</div> as a design tool, it conveys both information and emotion. Think of the sound everyday objects’ emit when we use them: the sound of a specific kettle we have been using for 10 years would alert us when water is ready but would also be part of our emotional home landscape, whether we love it or hate it;
 			</div>
-			<div class="risposta">
+			<div class="rispostain">
 				<div class="speciale impo">*</div> as a narrative tool, it enriches the message both at the functional and the emotional level, it builds a story. Think of cinema, and how changing the style of a soundtrack could transform a scene charged with tense expectation in the contemplation of a romantic scenery;
 			</div>
-			<div class="risposta">
+			<div class="rispostain">
 				<div class="speciale impo">*</div> perceptually, it intervenes where other senses encounter their limits: the screen has borders that the soundtracks does not have. Think of an indoor scene where the protagonist is lying in bed, the sound of chirping birds coming from outside, and then, suddenly, a terrified scream. How much information are we getting only through sound?
 			</div>
-			<div class="risposta">
+			<div class="rispostain">
 				<div class="speciale impo">*</div> it provides a continuous, interactive feedback to our actions: we understand through experience if an action we are doing is performing its task or not: is the car engine working properly? Is the vacuum cleaner stuck? Is the camera taking photos?
 			</div>
-			<div class="risposta">
+			<div class="rispostain">
 				<div class="speciale impo">*</div> it leverages your peripheral attention, thus, we can perform other actions or focus our attention elsewhere while monitoring the situation. Is our baby crying in the other room? Is it raining? Is our neighbor at home upstairs? We would know, while sitting on the sofa in the living room.
 			</div>
 			<div class="domanda impo">The challenges of Sonification</div>
 			<div class="risposta">
 				The Geiger counter is among the most successful cases of Data Sonification: the rate of clicking of a Geiger counter conveys the level of radiation in the immediate vicinity of the device. The higher the rate, the higher the amount of radiation. When we move to more ambitious representations of data through sound, though, it is often difficult for the average user to grasp the connection between the data and the sounds, compared to what it is to read a - even complex - diagram on the same data. A reason often quoted as cause of this difficulty is, that sonification lacks a wider context, a general training that visualization have benefitted over the centuries. Our school education, our daily jobs, our communication, is mainly visual. Other reasons might related to the lack of proper technical equipment to diffuse the sonification: how do we listen to a data sonification in a real world environment to perform a daily task? As we all know, sound in digital products can be annoying for us, or for those around us. More, sonification projects do not benefit of established, industry-level frameworks (Tableaux, etc) to build specific experiences. Many sonification attempts are coded from scratch for very specific needs and goals.
 			</div>
-			<div class="domanda impo">Parameter Mapping
-				<div class="sub"> // the technique we used in this project</div>
-			</div>
-			<div class="risposta">
-				Many different components can be altered to change the user's perception of the sound, and in turn, their perception of the underlying information being portrayed. Often, an increase or decrease in some level in this information is indicated by an increase or decrease in pitch, amplitude or tempo, but could also be indicated by varying other less commonly used components. For example, a stock market price could be portrayed by rising pitch as the stock price rose, and lowering pitch as it fell. To allow the user to determine that more than one stock was being portrayed, different timbres or brightnesses might be used for the different stocks, or they may be played to the user from different points in space, for example, through different sides of their headphones. Many studies have been undertaken to try to find the best techniques for various types of information to be presented, and as yet, no conclusive set of techniques to be used has been formulated. As the area of sonification is still considered to be in its infancy, current studies are working towards determining the best set of sound components to vary in different situations <div class="sub">[3]</div>.
+			<div id="parameter">
+				<div class="domanda impo">Parameter Mapping
+					<div class="specific"> - the technique we used in this project</div>
+				</div>
+
+				<div class="risposta">
+					Many different components can be altered to change the user's perception of the sound, and in turn, their perception of the underlying information being portrayed. Often, an increase or decrease in some level in this information is indicated by an increase or decrease in pitch, amplitude or tempo, but could also be indicated by varying other less commonly used components. For example, a stock market price could be portrayed by rising pitch as the stock price rose, and lowering pitch as it fell. To allow the user to determine that more than one stock was being portrayed, different timbres or brightnesses might be used for the different stocks, or they may be played to the user from different points in space, for example, through different sides of their headphones. Many studies have been undertaken to try to find the best techniques for various types of information to be presented, and as yet, no conclusive set of techniques to be used has been formulated. As the area of sonification is still considered to be in its infancy, current studies are working towards determining the best set of sound components to vary in different situations
+					<div class="sub">[3]</div>.
+				</div>
 			</div>
 
 		</div>
@@ -103,12 +105,6 @@
 			<a class="esempi" target="_blank" href="https://soundcloud.com/somatic-sounds/iraq-body-count-guillaume-potard">// Iraq Body Count</a>
 		</div>
 
-
-
-
-
-
-
 	</main>
 
 
@@ -119,7 +115,7 @@
 
 				<div class="col-3">
 					<div class="info">
-						Project Name
+						sonifying cyber-attacks in water plants
 					</div>
 					<div class="info1">
 						Test Phase 01 // January 2019

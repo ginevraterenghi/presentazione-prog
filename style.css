@@ -72,6 +72,14 @@ main {
 	color: lightgray;
 }
 
+.specific {
+	font-family: 'Chivo';
+	font-size: 0.8rem;
+	font-weight: 300;
+	color: red;
+	display: inline;
+}
+
 
 
 #datasonification {
@@ -267,21 +275,41 @@ figcaption {
 	line-height: 1.3rem;
 }
 
-.par1 {
+.rispostain {
 	/*	background: pink;*/
+	margin-left: 3vh;
+	margin-right: 3vh;
+	margin-top: 1vh;
+	font-family: 'Montserrat';
+	font-weight: 400;
+	font-size: 0.7rem;
+	text-align: justify;
+	line-height: 1.3rem;
+}
+
+.par1 {
 	margin-left: 6vh;
 	margin-right: 3vh;
 	margin-top: 2vh;
+	font-family: 'Montserrat';
+	font-weight: 400;
+	font-size: 0.6rem;
+}
+
+.par2 {
+	margin-left: 8vh;
+	margin-right: 3vh;
+	margin-top: 0.6vh;
 	font-family: 'Montserrat';
 	font-weight: 200;
 	font-size: 0.6rem;
 }
 
-.par2 {
-	/*	background: pink;*/
+.par3 {
 	margin-left: 8vh;
 	margin-right: 3vh;
 	margin-top: 0.6vh;
+	margin-bottom: 1.2vh;
 	font-family: 'Montserrat';
 	font-weight: 200;
 	font-size: 0.6rem;
@@ -352,26 +380,37 @@ dd {
 	font-family: 'Montserrat';
 	font-weight: 100;
 	font-style:italic;
-	color: black
+	color: black;
 }
 
 .ref:hover {
 	font-style: normal;
 	color: black;
-	font-weight: 600;
+	font-weight: 500;
 	text-decoration: none;
 }
 
 .parti {
-	font-family: 'Montserrat';
+	font-family: 'Chivo';
 	font-weight: 600;
 	color: black;
 	display: inline;
 }
 
+.rispostaDown {
+	margin-left: 3vh;
+	margin-right: 3vh;
+	margin-top: 2vh;
+	font-family: 'Montserrat';
+	font-weight: 400;
+	font-size: 0.7rem;
+	text-align: justify;
+	line-height: 1.3rem;
+}
+
 
 .esempi {
-	font-family: 'Montserrat';
+	font-family: 'Chivo';
 	font-weight: 100;
 	font-style:italic;
 	color: black
@@ -443,6 +482,8 @@ dd {
 }
 
 .mappa {
+	margin-top: 3vh;
+	margin-bottom: 3vh;
 	width: 330px;
 }
 
@@ -490,7 +531,7 @@ dd {
 		font-size: 0.9rem;
 	}
 	.sub {
-		font-size: 0.9rem;
+		font-size: 0.7rem;
 	}
 	.capitolo {
 		font-size: 0.9rem;
@@ -499,10 +540,24 @@ dd {
 		font-size: 0.9rem;
 		line-height: 1.7rem;
 	}
+	.rispostaDown {
+		font-size: 0.9rem;
+		line-height: 1.7rem;
+	}
+	.rispostain {
+		font-size: 0.9rem;
+		line-height: 1.7rem;
+	}
 	.par1 {
 		font-size: 0.7rem;
 	}
 	.par2 {
+		font-size: 0.7rem;
+	}
+	.par3 {
+		font-size: 0.7rem;
+	}
+	.specific {
 		font-size: 0.7rem;
 	}
 	
@@ -575,7 +630,7 @@ dd {
 		font-size: 1.1rem;
 	}
 	.sub {
-		font-size: 1.1rem;
+		font-size: 0.9rem;
 	}
 	.capitolo {
 		font-size: 1rem;
@@ -584,10 +639,24 @@ dd {
 		font-size: 1rem;
 		line-height: 2rem;
 	}
+	.rispostaDown {
+		font-size: 1rem;
+		line-height: 2rem;
+	}
+	.rispostain {
+		font-size: 1rem;
+		line-height: 2rem;
+	}
 	.par1 {
 		font-size: 0.9rem;
 	}
 	.par2 {
+		font-size: 0.9rem;
+	}
+	.par3 {
+		font-size: 0.9rem;
+	}
+	.specific {
 		font-size: 0.9rem;
 	}
 	
