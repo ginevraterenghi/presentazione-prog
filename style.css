@@ -34,6 +34,8 @@ main {
 
 
 
+
+
 /*! ------------- sezioni -------------- */
 
 /*
@@ -87,8 +89,7 @@ main {
 }
 
 #project {
-	margin-top: 5vh;
-	/*	background: purple;*/
+	margin-top: 0vh;
 }
 
 #keysound {
@@ -151,8 +152,12 @@ main {
 
 figcaption {
 /*    padding-top: 2vh;*/
-	padding-bottom: 1vh;
+	padding-bottom: 0.7vh;
 }
+
+
+
+
 
 /*
 
@@ -321,8 +326,8 @@ figcaption {
 	margin-left: 3vh;
 	margin-right: 3vh;
 	margin-top: 1vh;
-	font-family: 'Montserrat';
-	font-weight: 200;
+	font-family: 'Chivo';
+	font-weight: 100;
 	font-size: 0.5rem;
 	text-align: justify;
 	line-height: 1rem;
@@ -383,7 +388,14 @@ dd {
 	color: black;
 }
 
-.ref:hover {
+.x {
+	font-family: 'Chivo';
+	font-weight: 100;
+	font-style: italic;
+	color: black;
+}
+
+.x:hover {
 	font-style: normal;
 	color: black;
 	font-weight: 500;

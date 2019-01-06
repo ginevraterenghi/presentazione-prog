@@ -10,7 +10,7 @@
 	<link rel="shortcut icon" type="image/png" href="assets/fav.png" />
 
 	<!-- fonts link -->
-	<link href="https://fonts.googleapis.com/css?family=Chivo:300,400,700,900" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Chivo:100,300,400,700,900" rel="stylesheet">
 
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,400i,500,600,700,900" rel="stylesheet">
 
@@ -39,22 +39,23 @@
 	</header>
 
 	<main class="container col-md-7">
-		<div class="risposta">
-			The wider scope of the project is to develop and design an integrated sound and visual approach to the representation of complex data for decision-making. In this phase, the specific goal is to support analysts in the monitoring, understanding, reacting and possibly preventing cyber attacks on water supply systems. As you probably know, water supply systems worldwide are moving from physical to cyber-physical systems which include networked devices used for a best reliability and controllability. But the nature of these devices exposes the infrastructure to cyber threats <div class="sub">[4]</div>. The goal of this project, based on a simulated data, is to enable analysts to control the condition in real time and verify if the system is under attack.
-			<br>In real world, the current approach displays data on multiple screens using different kinds of analytical diagrams that require, to be monitored, an operator’s full visual attention. During everyday’s work activities, though, this attention might be occupied by other tasks (answering the phone, talking to colleagues, performing analysis of historical data, writing reports…). Also, the artificial intelligence algorithms currently available are bound, for many reasons, to report a high number of false positive answers on attacks. When a false alarm sounds off too many times, the unwanted but understandable consequence (also a consequence of the psychological phenomenon known as alarm fatigue) is that the operator stops paying attention to the alarm itself, with potentially serious consequences should an emergency really occur. In the actual situation, therefore, the alert system cannot be considered reliable.
-			<br>The project, now at the end of its first phase, focussed on using sound to convey a “first layer” of information to the user. This first layer is meant to raise the user’s awareness on anomalies - their occurrence and the corresponding level of gravity. It should also facilitate the analyst in finding more detailed information, if needed, in the visual interface more effectively and efficiently. The final goal is to make the decision process faster and more efficient.
-			<br>This test aims to collect users’ feedback on the potentialities of sonification in this specific case; to understand if data are correctly understood; to understand which mapping scenario and which sound content among those presented are more appropriate for this purpose. After the experiment we will select and adjust the final prototype which we will test in a second phase coupled with the visual interface.
+		<div class="intro">
+			The wider scope of the project is to develop and design an integrated sound and visual approach to the representation of complex data for decision-making. In this phase, the specific goal is to support analysts in the monitoring, understanding, reacting and possibly preventing cyber attacks on water supply systems. As you probably know, water supply systems worldwide are moving from physical to cyber-physical systems which include networked devices used for a best reliability and controllability. But the nature of these devices exposes the infrastructure to cyber threats
+			<div class="sub">[4]</div>. The goal of this project, based on a simulated data, is to enable analysts to control the condition in real time and verify if the system is under attack.
 		</div>
 
+		<div class="domanda impo">The Current Approach</div>
+		<div class="risposta">
+			In real world, the current approach displays data on multiple screens using different kinds of analytical diagrams that require, to be monitored, an operator’s full visual attention. During everyday’s work activities, though, this attention might be occupied by other tasks (answering the phone, talking to colleagues, performing analysis of historical data, writing reports…). Also, the artificial intelligence algorithms currently available are bound, for many reasons, to report a high number of false positive answers on attacks. When a false alarm sounds off too many times, the unwanted but understandable consequence (also a consequence of the psychological phenomenon known as alarm fatigue) is that the operator stops paying attention to the alarm itself, with potentially serious consequences should an emergency really occur. In the actual situation, therefore, the alert system cannot be considered reliable.
+		</div>
 
-
-		<div id="project">
 			<div class="domanda impo">The Project</div>
 			<div class="risposta">
-				The reason for using sound to represent the type of data we encounter in this field is well grounded in scientific literature. In particular, sound has been proven to be an efficient tool for real time process monitoring <div class="sub">[5]</div>. Additionally, sound is considered to be of advantage in identifying patterns in data as the human ear is very skilled in reacting to changes and repetitions in tempo. More, sound occupies a different communication/perceptual channel from the visual one, which as we have seen is, in this context, often overloaded. Additionally, sound typically occupies the periphery of our attention (i.e., we can hear and process sounds from the environment while performing other attention-demanding tasks). A sound can be brought to the center of our attention only if needed <div class="sub">[7]</div>. Visual inputs, on the contrary, requires our central attention to be detected and understood. To sum it up, the goal of sonification in this project is to communicate the system status in real time in the most intuitive way.
-			</div>
-
-
+			    The project, now at the end of its first phase, focussed on using sound to convey a “first layer” of information to the user. This first layer is meant to raise the user’s awareness on anomalies - their occurrence and the corresponding level of gravity. It should also facilitate the analyst in finding more detailed information, if needed, in the visual interface more effectively and efficiently. The final goal is to make the decision process faster and more efficient.
+				<br>This test aims to collect users’ feedback on the potentialities of sonification in this specific case; to understand if data are correctly understood; to understand which mapping scenario and which sound content among those presented are more appropriate for this purpose. After the experiment we will select and adjust the final prototype which we will test in a second phase coupled with the visual interface. The reason for using sound to represent the type of data we encounter in this field is well grounded in scientific literature. In particular, sound has been proven to be an efficient tool for real time process monitoring
+				<div class="sub">[5]</div>. Additionally, sound is considered to be of advantage in identifying patterns in data as the human ear is very skilled in reacting to changes and repetitions in tempo. More, sound occupies a different communication/perceptual channel from the visual one, which as we have seen is, in this context, often overloaded. Additionally, sound typically occupies the periphery of our attention (i.e., we can hear and process sounds from the environment while performing other attention-demanding tasks). A sound can be brought to the center of our attention only if needed
+				<div class="sub">[7]</div>. Visual inputs, on the contrary, requires our central attention to be detected and understood. To sum it up, the goal of sonification in this project is to communicate the system status in real time in the most intuitive way.
+	
 			<div class="domanda impo">The Scenario</div>
 			<div class="risposta">
 				We are referring to the water distribution system of a real-world, medium-sized city. On a regular day, operators of a water distribution system spend their time in the control room splitting between data analysis of historical data or specific events, routine tasks such as reports and admin, conversations with colleagues, and monitoring through about six to nine screens the activity and status of the network. The goal of monitoring is to become aware of any anomalous behavior in the hydraulic components - e.g. tanks overflow, reduction in pump speed, anomalous activation/deactivation of pumps. In case of an anomaly, a predefined protocol is in place to manage the emergency and/or escalate the alarm. In the presence of an anomaly, the operators should also be enabled to understand whether the problems can be attributed to a cyber attack to the system or to another type of failure.
@@ -73,12 +74,12 @@
 				Below you will be presented with the sound key to the sonification you are about to test. Sounds are divided by Scenario (1 and 2) and Version (A and B), based on different sounds. Therefore, you will have four different prototypes to test: 1-A, 1-B, 2-A, 2-B. In everyone of these prototypes, each district has been assigned a different sound, like a “sonic print” representing the district. How this sound behaves and changes during the sonification depends on the hourly data (= the level of anomaly).
 				<br>Here you find a demo track for each district. It will help you familiarize with the “voice” of each district that you will encounter down the road during the test. The prototypes will play all districts together (cause the system receives all data together), so expect the sounds you will hear to be more complex. Still, we believe that listening to these tracks before the test is an essential training to properly react to what the sonification is telling you. You can consult this sound-key any time, even during the testing sessions.
 			</div>
-			
+
 			<div class="domanda impo">SCENARIO 1</div>
 			<div class="risposta">
 				In this Scenario, the duration of each sound is is directly proportional to the level of the anomaly that the specific district presents, at a given time. The districts’ sounds start all together at the same time. Baseline duration for non - anomalous data/sound is 1 second. The longer the sound the bigger the problem is. The maximum duration is capped at ten seconds. This means that the level of anomalies in that district is at its highest.
 			</div>
-			
+
 			<div id="unoa">
 				<div class="red">1-A</div>
 
@@ -183,9 +184,9 @@
 
 			<div class="domanda impo">SCENARIO 2</div>
 			<div class="risposta">
-				In this Scenario, the level of anomaly is expressed by the frequency of loops of a sound. The districts’ sounds start all together at the same time. The standard duration of the whole sonification is capped at ten second. If the sounds are played only one time at the beginning, with no loops, no anomalies are detected (this means you will hear 1 second of sounds and 9 seconds of silence). If the sound of a specific district is repeated (if it “loops”), it means that something wrong is happening to the water system in that district. The more frequently a sound loops over the 10 seconds, the more alarming the district state is. 
+				In this Scenario, the level of anomaly is expressed by the frequency of loops of a sound. The districts’ sounds start all together at the same time. The standard duration of the whole sonification is capped at ten second. If the sounds are played only one time at the beginning, with no loops, no anomalies are detected (this means you will hear 1 second of sounds and 9 seconds of silence). If the sound of a specific district is repeated (if it “loops”), it means that something wrong is happening to the water system in that district. The more frequently a sound loops over the 10 seconds, the more alarming the district state is.
 			</div>
-			
+
 			<div id="unoa">
 				<div class="red">2-A</div>
 
@@ -284,7 +285,7 @@
 					</figure>
 				</div>
 			</div>
-
+				
 			<div class="domandap">References</div>
 			<div class="doc">
 				<div class="sub">[1]</div> T. Hermann, A. Hunt, J. G. Neuhoff (eds.), The Sonification Handbook, Logos Publishing House: Berlin, 2011.
@@ -293,10 +294,10 @@
 				<div class="sub">[2]</div> M. Chion, The Audiovision - Sound on Screen, Columbia University Press: New York City, 1994.
 			</div>
 			<div class="doc">
-				<div class="sub">[3]</div> Sonification, Wikipedia - the Free Encyclopedia, <a class="ref" href="https://en.wikipedia.org/wiki/Sonification">Webpage</a> (Last access 05/01/2018).
+				<div class="sub">[3]</div> Sonification, Wikipedia - the Free Encyclopedia, <a class="x" href="https://en.wikipedia.org/wiki/Sonification">Webpage</a> (Last access 05/01/2018).
 			</div>
 			<div class="doc">
-				<div class="sub">[4]</div> S. Galelli, R. Taormina, N. O. Tippenhauer,  E. Salomons, “Characterizing Cyber-Physical Attacks on Water Distribution Systems”, in Journal of Water Resources Planning and Management, Volume 143 Issue 5, 2017.
+				<div class="sub">[4]</div> S. Galelli, R. Taormina, N. O. Tippenhauer, E. Salomons, “Characterizing Cyber-Physical Attacks on Water Distribution Systems”, in Journal of Water Resources Planning and Management, Volume 143 Issue 5, 2017.
 			</div>
 			<div class="doc">
 				<div class="sub">[5]</div> L. Axon, S.Creese, M.Goldsmith, J.R. C. Nurse, “Reflecting on the Use of Sonification for Network Monitoring”, SECURWARE 2016 : The Tenth International Conference on Emerging Security Information, Systems and Technologies, 2016.
@@ -307,7 +308,7 @@
 			<div class="doc">
 				<div class="sub">[7]</div> Bakker S., van den Hoven E., Eggen B., “Knowing by ear: leveraging human attention abilities in interaction design”, in Journal on Multimodal User Interfaces, 2010.
 			</div>
-			
+
 
 			<div class="domanda">Other References</div>
 			<div class="doc">
@@ -326,7 +327,7 @@
 				K. V. Nesbitt and S. Barrass, “Evaluation of a Multimodal Sonification and Visualization of Depth of Market Stock Data” in Proceedings of the 2002 International Conference on Auditory Display, Kyoto, Japan, July 2-5, 2002.
 			</div>
 			<div class="doc">
-				R. Taormina, S. Galelli, N. Tippenhauer et al., “The Battle of the Attack Detection Algorithms: Disclosing Cyber Attacks on Water Distribution Networks”, Authors Copy ? 2018. 
+				R. Taormina, S. Galelli, N. Tippenhauer et al., “The Battle of the Attack Detection Algorithms: Disclosing Cyber Attacks on Water Distribution Networks”, Authors Copy ? 2018.
 			</div>
 			<div class="doc">
 				A. Kobsa, “User Experiments with Tree Visualization Systems”, in Proceedings of InfoVis 2004, IEEE Symposium on Information Visualization, Austin, TX, 2004.
