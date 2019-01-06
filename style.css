@@ -232,6 +232,15 @@ figcaption {
 	font-size: 0.8rem;
 }
 
+.domandap {
+	margin-top: 5vh;
+	font-family: 'Chivo';
+	font-weight: 300;
+	color: lightgray;
+	font-size: 0.8rem;
+}
+
+
 .impo {
 	color: red;
 	font-weight: 700;
@@ -256,6 +265,39 @@ figcaption {
 	font-size: 0.7rem;
 	text-align: justify;
 	line-height: 1.3rem;
+}
+
+.par1 {
+	/*	background: pink;*/
+	margin-left: 6vh;
+	margin-right: 3vh;
+	margin-top: 2vh;
+	font-family: 'Montserrat';
+	font-weight: 200;
+	font-size: 0.6rem;
+}
+
+.par2 {
+	/*	background: pink;*/
+	margin-left: 8vh;
+	margin-right: 3vh;
+	margin-top: 0.6vh;
+	font-family: 'Montserrat';
+	font-weight: 200;
+	font-size: 0.6rem;
+}
+
+
+.doc {
+	/*	background: pink;*/
+	margin-left: 3vh;
+	margin-right: 3vh;
+	margin-top: 1vh;
+	font-family: 'Montserrat';
+	font-weight: 200;
+	font-size: 0.5rem;
+	text-align: justify;
+	line-height: 1rem;
 }
 
 .scenario a {
@@ -319,6 +361,14 @@ dd {
 	font-weight: 600;
 	text-decoration: none;
 }
+
+.parti {
+	font-family: 'Montserrat';
+	font-weight: 600;
+	color: black;
+	display: inline;
+}
+
 
 .esempi {
 	font-family: 'Montserrat';
@@ -436,6 +486,9 @@ dd {
 	.domanda {
 		font-size: 0.9rem;
 	}
+	.domandap {
+		font-size: 0.9rem;
+	}
 	.sub {
 		font-size: 0.9rem;
 	}
@@ -445,6 +498,17 @@ dd {
 	.risposta {
 		font-size: 0.9rem;
 		line-height: 1.7rem;
+	}
+	.par1 {
+		font-size: 0.7rem;
+	}
+	.par2 {
+		font-size: 0.7rem;
+	}
+	
+	.doc {
+		font-size: 0.8rem;
+		line-height: 1.5rem;
 	}
 	.info {
 		font-size: 0.4rem;
@@ -507,6 +571,9 @@ dd {
 	.domanda {
 		font-size: 1.1rem;
 	}
+	.domandap {
+		font-size: 1.1rem;
+	}
 	.sub {
 		font-size: 1.1rem;
 	}
@@ -516,6 +583,17 @@ dd {
 	.risposta {
 		font-size: 1rem;
 		line-height: 2rem;
+	}
+	.par1 {
+		font-size: 0.9rem;
+	}
+	.par2 {
+		font-size: 0.9rem;
+	}
+	
+	.doc {
+		font-size: 0.9rem;
+		line-height: 1.8rem;
 	}
 	.info {
 		font-size: 0.7rem;
