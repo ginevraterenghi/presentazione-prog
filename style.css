@@ -8,7 +8,7 @@ header {
 }
 
 .container {
-	padding-left:5vh;
+	padding-left: 5vh;
 	padding-right: 5vh;
 }
 
@@ -18,19 +18,19 @@ main {
 }
 
 .footer_img {
-		width: 60px;
-		height: auto;
-	}
+	width: 90px;
+	height: auto;
+}
 
 .appearance {
-		padding-left: 50px;
-	}
+	padding-left: 50px;
+}
 
 
 
 #link_appearance_nav {
-		padding-right: 30vh;
-	}
+	padding-right: 30vh;
+}
 
 
 
@@ -47,15 +47,13 @@ main {
 }
 */
 
-
-
 .intro {
 	font-family: 'Montserrat';
 	font-size: 0.9rem;
 	font-weight: 600;
 	padding-top: 1vh;
-/*	padding-bottom: 2vh;*/
-	text-align:justify;
+	/*	padding-bottom: 2vh;*/
+	text-align: justify;
 	line-height: 1.7rem;
 }
 
@@ -93,7 +91,7 @@ main {
 }
 
 #keysound {
-/*		background: purple;*/
+	/*		background: purple;*/
 }
 
 
@@ -131,27 +129,27 @@ main {
 /* Links inside the navbar */
 
 .navbar a {
-/*	float: left;*/
+	/*	float: left;*/
 	display: block;
 	color: red;
-/*	text-align: center;*/
+	/*	text-align: center;*/
 	padding: 2vh;
 	text-decoration: none;
 	font-family: 'Chivo';
 }
 
 .slim {
-    font-weight: 300;
+	font-weight: 300;
 	font-style: italic;
 }
 
 .ciccio {
-    font-weight: 700;
+	font-weight: 700;
 	font-style: normal;
 }
 
 figcaption {
-/*    padding-top: 2vh;*/
+	/*    padding-top: 2vh;*/
 	padding-bottom: 0.7vh;
 }
 
@@ -173,8 +171,6 @@ figcaption {
 	font-weight: 300;
 }
 */
-
-
 
 /* Change background on mouse-over */
 
@@ -384,7 +380,7 @@ dd {
 .ref {
 	font-family: 'Montserrat';
 	font-weight: 100;
-	font-style:italic;
+	font-style: italic;
 	color: black;
 }
 
@@ -424,7 +420,7 @@ dd {
 .esempi {
 	font-family: 'Chivo';
 	font-weight: 100;
-	font-style:italic;
+	font-style: italic;
 	color: black
 }
 
@@ -436,7 +432,7 @@ dd {
 }
 
 .esempi:visited {
-  	text-decoration: line-through;
+	text-decoration: line-through;
 }
 
 
@@ -450,12 +446,15 @@ dd {
 	padding-top: 10vh;
 }
 */
+
 #duea {
 	padding-top: 10vh;
 }
+
 #unob {
 	padding-top: 10vh;
 }
+
 #dueb {
 	padding-top: 10vh;
 	padding-top: 10vh;
@@ -472,6 +471,15 @@ dd {
 	font-size: 0.4rem;
 }
 
+.spaziologo {
+	margin-left: 1vh;
+	margin-top: 3vh;
+	margin-bottom: 2vh;
+	font-family: 'Chivo';
+	font-weight: 200;
+	font-size: 0.4rem;
+}
+
 .info1 {
 	margin-left: 1vh;
 	margin-top: 2vh;
@@ -480,6 +488,7 @@ dd {
 	font-weight: 200;
 	font-size: 0.4rem;
 }
+
 .info2 {
 	margin-left: 1vh;
 	margin-top: 0.2vh;
@@ -572,7 +581,7 @@ dd {
 	.specific {
 		font-size: 0.7rem;
 	}
-	
+
 	.doc {
 		font-size: 0.8rem;
 		line-height: 1.5rem;
@@ -611,7 +620,7 @@ dd {
 	.name2 {
 		font-size: 1.7rem;
 	}
-	
+
 }
 
 /*// Large devices (desktops, 992px and up)*/
@@ -671,7 +680,7 @@ dd {
 	.specific {
 		font-size: 0.9rem;
 	}
-	
+
 	.doc {
 		font-size: 0.9rem;
 		line-height: 1.8rem;
