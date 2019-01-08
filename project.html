@@ -40,45 +40,45 @@
 
 	<main class="container col-md-7">
 		<div class="intro">
-			The wider scope of the project is to develop and design an integrated sound and visual approach to the representation of complex data for decision-making. In this phase, the specific goal is to support analysts in the monitoring, understanding, reacting and possibly preventing cyber attacks on water supply systems. As you probably know, water supply systems worldwide are moving from physical to cyber-physical systems which include networked devices used for a best reliability and controllability. But the nature of these devices exposes the infrastructure to cyber threats
+			The wider scope of the project is to develop an integrated sound and visual approach to the representation of complex data for decision-making. In this phase, we focus on the monitoring of cyber attacks on water supply systems. These systems are moving from physical to cyber-physical, thus including networked devices used for a best reliability and controllability. But the nature of these devices exposes the infrastructure to cyber threats 
 			<div class="sub">[4]</div>. The goal of this project, based on simulated data, is to enable analysts to control the condition in real time and verify if the system is under attack.
 		</div>
 
-		<div class="domanda impo">The Current Approach</div>
+		<div class="domanda impo">Current Approach</div>
 		<div class="risposta">
-			In real world, the current approach displays data on multiple screens using different kinds of analytical diagrams that require, to be monitored, an operator’s full visual attention. During everyday’s work activities, though, this attention might be occupied by other tasks (answering the phone, talking to colleagues, performing analysis of historical data, writing reports…). Also, the artificial intelligence algorithms currently available are bound, for many reasons, to report a high number of false positive answers on attacks. When a false alarm sounds off too many times, the unwanted but understandable consequence (also a consequence of the psychological phenomenon known as alarm fatigue) is that the operator stops paying attention to the alarm itself, with potentially serious consequences should an emergency really occur. In the actual situation, therefore, the alert system cannot be considered reliable.
+			Today, data are displayed on multiple screens using different kinds of analytical diagrams that require, to be monitored, an operator’s full visual attention. During everyday’s work activities, though, this attention might be occupied by other tasks (answering the phone, talking to colleagues, performing analysis of historical data, writing reports…). Also, the artificial intelligence algorithms currently available are bound, for many reasons, to report a high number of false positive answers on attacks. When a false alarm sounds off too many times, the unwanted consequence is that the operator stops paying attention to the alarm itself, with potentially serious consequences should an emergency really occur. In the actual situation, therefore, the alert system cannot be considered reliable.
 		</div>
 
 			<div class="domanda impo">The Project</div>
 			<div class="risposta">
-			    The project, now at the end of its first phase, focussed on using sound to convey a “first layer” of information to the user. This first layer is meant to raise the user’s awareness on anomalies - their occurrence and the corresponding level of gravity. It should also facilitate the analyst in finding more detailed information, if needed, in the visual interface more effectively and efficiently. The final goal is to make the decision process faster and more efficient.
-				<br>This test aims to collect users’ feedback on the potentialities of sonification in this specific case; to understand if data are correctly understood; to understand which mapping scenario and which sound content among those presented are more appropriate for this purpose. After the experiment we will select and adjust the final prototype which we will test in a second phase coupled with the visual interface. The reason for using sound to represent the type of data we encounter in this field is well grounded in scientific literature. In particular, sound has been proven to be an efficient tool for real time process monitoring
-				<div class="sub">[5]</div>. Additionally, sound is considered to be of advantage in identifying patterns in data as the human ear is very skilled in reacting to changes and repetitions in tempo. More, sound occupies a different communication/perceptual channel from the visual one, which as we have seen is, in this context, often overloaded. Additionally, sound typically occupies the periphery of our attention (i.e., we can hear and process sounds from the environment while performing other attention-demanding tasks). A sound can be brought to the center of our attention only if needed
-				<div class="sub">[7]</div>. Visual inputs, on the contrary, require our central attention to be detected and understood. To sum it up, the goal of sonification in this project is to communicate the system status in real time in the most intuitive way.
+			    The project uses sound to convey a “first layer” of information to the user. This first layer is meant to raise the user’s awareness on anomalies - their occurrence and the corresponding level of gravity. It should also facilitate the analyst in finding more detailed information, if needed, in the visual interface.
+				<br>The reason for using sound is well grounded in scientific literature. In particular, sound has been proven to be an efficient tool for real time process monitoring 
+				<div class="sub">[5]</div> for cyber security. Moreover, sound occupies a different communication channel from the visual one, which in this context is often overloaded. Additionally, sound typically occupies the periphery of our attention (i.e., we can hear and process sounds from the environment while performing other attention-demanding tasks). A sound can be brought to the center of our attention only if needed 
+				<div class="sub">[7]</div>.
 	
 			<div class="domanda impo">The Scenario</div>
 			<div class="risposta">
-				We are referring to the water distribution system of a real-world, medium-sized city. On a regular day, operators of a water distribution system spend their time in the control room splitting between data analysis of historical data or specific events, routine tasks such as reports and admin, conversations with colleagues, and monitoring through about six to nine screens the activity and status of the network. The goal of monitoring is to become aware of any anomalous behavior in the hydraulic components - e.g. tanks overflow, reduction in pump speed, anomalous activation/deactivation of pumps. In case of an anomaly, a predefined protocol is in place to manage the emergency and/or escalate the alarm. In the presence of an anomaly, the operators should also be enabled to understand whether the problems can be attributed to a cyber attack to the system or to another type of failure.
+				We are referring to the water distribution system of a real-world, medium-sized city. On a regular day, the goal of monitoring is to become aware of any anomalous behavior in the hydraulic components - e.g. tanks overflow, reduction in pump speed, anomalous activation/deactivation of pumps. In case of an anomaly, a predefined protocol is in place to manage the emergency and/or escalate the alarm. In the presence of an anomaly, the operators should also be able to understand whether the problems can be attributed to a cyber attack to the system or to another type of failure. 
 				<br>Our hypothetical setting imagines that a dedicated anomaly detection algorithm is in place in the control room, updating every hour on the status of the network regarding the possibility of a cyber attack. The operator monitors, through sound, the status of the network while she/he keeps working at her/his usual tasks.
 			</div>
 
 			<div class="domanda impo">The Data</div>
 			<div class="risposta">
-				Data used in the project come from the various component of the water system network of our imaginary town (C-Town). We grouped data based on location: C-Town has five districts; data were grouped according of the districts (shown in the map below). Every district is marked with “DMA-n” on the map and is recognizable by the district’s background color. In the network, each physical component of the water plant is equipped with a sensor which transmits information to the central SCADA System. The SCADA is located in the operation room and from it the analysts control the status of the whole network. The anomaly detection algorithm, developed at iTrust and used in this project, operates using the SCADA data and calculating the difference between incoming real data and predictive data based on the algorithm’s model. The model is based on a “normal” situation where the system does not present anomalous behaviour. Whenever real incoming data differ from the prediction of the model, the algorithm detects an anomaly. The more real data transmitted from the components are far from prediction the more the anomaly detected is serious.
+				Data used in the project come from the various component of the water system network of our imaginary town (C-Town). C-Town has five districts. Every district is marked with “DMA-n” on the map and is recognizable by the district’s background color. The anomaly detection algorithm used in this project, operates using the SCADA (main control unit) data and calculating the difference between incoming real data and predictive data based on the algorithm’s model. Whenever real incoming data differ from the prediction of the model, the algorithm detects an anomaly. The more real data transmitted from the components are far from prediction the more the anomaly detected is to be considered serious.
 				<br>The system status considers five different levels, starting from zero - which means the status is healthy - to five which represents the highest level of anomaly.
 			</div>
 			<img class="mappa" src="./assets/map.jpg">
 
 			<div class="domanda impo">Sound-Key</div>
 			<div class="risposta">
-				Below you will be presented with the sound key to the sonification you are about to test. Sounds are divided by Scenario (1 and 2) and Version (A and B), based on different sounds. Therefore, you will have four different prototypes to test: 1-A, 1-B, 2-A, 2-B. In each of these prototypes, each district has been assigned a different sound, like a “sonic print” representing the district. How this sound behaves and changes during the sonification depends on the hourly data (= the level of anomaly).
-				<br>Here you find the sound associated to each district in each scenario. It will help you familiarize with the “voice” of each district that you will encounter down the road during the test. The prototypes will play all districts together (cause the system receives all data together), so expect the sounds you will hear to be more complex. Still, we believe that listening to these tracks before the test is an essential training to properly react to what the sonification is telling you. You can consult this sound-key any time, even during the testing sessions.
+				Below you find the sound key to the sonification you are about to test. Sounds are divided by Scenarios (1 and 2) and Versions (A and B). The two scenarios are based on a different mapping strategy (dato to sound), whereas each version presents a different sound concept. Therefore, you will have four different prototypes to test: 1-A, 1-B, 2-A, 2-B. 
+				<br>In each of these prototypes, each district has been assigned a different sound, like a “sonic print” representing the district. How this sound behaves and changes during the sonification depends on the hourly data (= the level of anomaly).
+				<br>Here you find the sound associated to each district in each scenario. It will help you familiarize with the “voice” of each district that you will encounter down the road during the test. The prototypes will play all districts together (cause the system receives all data together), so expect the sounds you will hear to be more complex. You can consult this sound-key any time, even during the testing sessions.
 			</div>
 
 			<div class="domanda impo">SCENARIO 1</div>
 			<div class="risposta">
-				In this Scenario, the duration of each sound is directly proportional to the level of the anomaly that the specific district presents, at a given time. The districts’ sounds start all together at the same time. Baseline duration for non - anomalous data/sound is 1 second. The longer the sound the bigger the problem is. The maximum duration is capped at ten seconds. At 10 seconds soundtrack will therefore mean that the level of anomalies in that district is at its highest.
-				
+				In this Scenario, the duration of each sound is directly proportional to the level of the anomaly that the specific district presents, at a given time. The districts’ sounds start all together at the same time. Baseline duration for non - anomalous data/sound is 1 second. The longer the sound the bigger the problem is. The maximum duration is capped at ten seconds. A 10 seconds soundtrack will therefore mean that the level of anomalies in that district is at its highest.
 			</div>
 
 			<div id="unoa">
@@ -185,7 +185,7 @@
 
 			<div class="domanda impo">SCENARIO 2</div>
 			<div class="risposta">
-				In this Scenario, the level of anomaly is expressed by the frequency of loops of a sound. The districts’ sounds start all together at the same time. The standard duration of the whole sonification is capped at ten second. If the sounds are played only one time at the beginning, with no loops, no anomalies are detected (this means you will hear 1 second of sounds and 9 seconds of silence). If the sound of a specific district is repeated (if it “loops”), it means that something wrong is happening to the water system in that district. The more frequently a sound loops over the 10 seconds, the more alarming the district state is.
+				In this Scenario, the level of anomaly is expressed by the frequency of loops of a sound. The districts’ sounds start all together at the same time. The standard duration of the whole sonification is capped at ten second. If the sounds are played only one time at the beginning, with no loops, no anomalies are detected (this means you will hear 1 second of sounds and 9 seconds of silence). If the sound of a specific district is repeated, it means that something wrong is happening in that district. The more frequently a sound loops over the 10 seconds, the more alarming the district state is.
 			</div>
 
 			<div id="unoa">
@@ -344,7 +344,7 @@
 
 
 
-	<footer id="fondo">
+<footer id="fondo">
 		<div class="container">
 			<div class="row fondo justify-content-center">
 
@@ -355,35 +355,42 @@
 					<div class="info1">
 						Experimental Phase // January 2019
 					</div>
-					<div class="info2">
-						mail di referenza
-					</div>
 				</div>
 
 				<div class="col-3">
-					<div class="info">
-						Project by:
-					</div>
-					<div class="info1">
-						Stefano Galelli - Riccardo Taormina
-					</div>
-					<div class="info2">
-						Sara Lenzi - Ginevra Terenghi
-					</div>
 				</div>
+				
 				<div class="col-3">
 					<div class="info">
-						Engineering Systems and Design
+						From Engineering Systems and Design Dep:
 					</div>
-					<div class="info">
+					<div class="info1">
+						Stefano Galelli 
+					</div>
+					<div class="info2">
+						Riccardo Taormina
+					</div>
+					<div class="info2">
+					&nbsp;
+					</div>
+					<div class="infoF">
 						<img class="footer_img" src="assets/logo-s.png">
 					</div>
 				</div>
 				<div class="col-3">
 					<div class="info">
-						DensityDesign Research Lab
+						From DensityDesign Research Lab:
 					</div>
-					<div class="info">
+					<div class="info1">
+						Sara Lenzi 
+					</div>
+					<div class="info2">
+						Ginevra Terenghi
+					</div>
+					<div class="info2">
+						Supervisor Paolo Ciuccarelli
+					</div>
+					<div class="infoF">
 						<img class="footer_img" src="assets/logo-polimi.png">
 					</div>
 				</div>

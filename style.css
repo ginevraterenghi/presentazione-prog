@@ -471,6 +471,15 @@ dd {
 	font-size: 0.4rem;
 }
 
+.infoF {
+	margin-left: 1vh;
+	margin-top: 1.5vh;
+	margin-bottom: 2vh;
+	font-family: 'Chivo';
+	font-weight: 200;
+	font-size: 0.4rem;
+}
+
 .spaziologo {
 	margin-left: 1vh;
 	margin-top: 3vh;
@@ -492,7 +501,25 @@ dd {
 .info2 {
 	margin-left: 1vh;
 	margin-top: 0.2vh;
-	margin-bottom: 2.6vh;
+	margin-bottom: 0.2vh;
+	font-family: 'Montserrat';
+	font-weight: 200;
+	font-size: 0.4rem;
+}
+
+.infoP {
+	margin-left: 1vh;
+	margin-top: 0.2vh;
+	margin-bottom: 0.2vh;
+	font-family: 'Montserrat';
+	font-weight: 200;
+	font-size: 0.4rem;
+}
+
+.infoP2 {
+	margin-left: 1vh;
+	margin-top: 0.2vh;
+	margin-bottom: 2vh;
 	font-family: 'Montserrat';
 	font-weight: 200;
 	font-size: 0.4rem;
@@ -595,6 +622,13 @@ dd {
 	.info2 {
 		font-size: 0.4rem;
 	}
+	.infoP {
+		font-size: 0.4rem;
+	}
+	.infoP2 {
+		font-size: 0.4rem;
+	}
+
 
 	#link_appearance_nav {
 		padding-right: 10vh;
@@ -692,6 +726,12 @@ dd {
 		font-size: 0.7rem;
 	}
 	.info2 {
+		font-size: 0.7rem;
+	}
+	.infoP {
+		font-size: 0.7rem;
+	}
+	.infoP2 {
 		font-size: 0.7rem;
 	}
 }

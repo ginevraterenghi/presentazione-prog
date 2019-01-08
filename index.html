@@ -41,9 +41,10 @@
 
 	<main class="container col-md-7">
 		<div class="intro">
-			Dear participants, first of all we would like to thank you for having agreed on taking part in this design experiment. This experimental phase is meant to conclude the first phase of development of the project “Sonifying cyber-attacks in water plants”, which we will describe later on.
-			<br>The project is a collaboration between the Politecnico di Milano - Design Department and SUTD - Singapore University of Technology and Design. We are Prof. Stefano Galelli and Dr. Riccardo Taormina from SUTD and Sara Lenzi (PhD candidate) and Ginevra Terenghi (Master’s graduating student) from DensityDesign Research Lab, PoliMI.
-			<br>This website is meant to be a online resource for all the participants to the experiment. The aim is to introduce the concept of Data Sonification, providing some context and examples you can review, and to introduce the project’s idea. You will also find here a sample of the sound files we will use (and you will hear) during the test, in order to help getting familiar with the sound content and understand the key behind the mapping of data to sound. All the information will be available to you throughout the duration of the experiment. We are confident that the material provided is enough for you to get started, but please feel free to contact us if you feel something’s missing.
+			This website is meant to be a online resource for all the participants to the experimental of the project “Sonifying cyber-attacks in water plants”.
+			<br>The project is a collaboration between the Politecnico di Milano - Design Department and SUTD - Singapore University of Technology and Design.
+			<br>Here we introduce the concept of Data Sonification, providing some context and examples you can review, and the project’s idea. You will also find here the sound key to understand the sonifications you will hear during the tests.
+			<br>All the information will be available to you throughout the duration of the experiment. Please feel free to contact us if you feel something’s missing.
 		</div>
 
 		<div id="datasonification">
@@ -57,6 +58,7 @@
 				Sonification is traditionally defined as the use of non-speech audio to convey information or perceptualize data
 				<div class="sub">[1]</div>. Data Sonification is a particular type of data representation in which data are mapped to sounds to communicate information to the listener. A field of studies since the early 1990s, sonification is still mainly confined to a specialized usage in scientific investigation and process monitoring (seismology, astronomy, real time monitoring in healthcare).
 				<br>Sonification practices range from Audification - the direct translation of waves of various nature (seismic waves, brain waves) into audible waves (i.e., waves oscillating in the audible range of 20 Hz to 20,000 Hz); to Parameter Mapping - the more complex association of data characteristics to sound parameters (i.e., pitch, amplitude, tempo, timbre).
+
 			</div>
 			<div class="domanda impo">Why Sound?</div>
 			<div class="risposta">
@@ -72,21 +74,21 @@
 				<div class="speciale impo">*</div> perceptually, it intervenes where other senses encounter their limits: the screen has borders that the soundtracks do not have. Think of an indoor scene where the protagonist is lying in bed, the sound of chirping birds coming from outside, and then, suddenly, a terrified scream. How much information are we getting only through sound?
 			</div>
 			<div class="rispostain">
-				<div class="speciale impo">*</div> it provides a continuous, interactive feedback to our actions: through sound experience we can understand if it is performing task or not: is the car engine working properly? Is the vacuum cleaner stuck? Is the camera taking photos?
+				<div class="speciale impo">*</div> it provides a continuous, interactive feedback to our actions: through sound we understand whether a certain action is performing or not. Is the car engine working properly when I change gear? is the vacuum cleaner hoovering properly? Is the camera taking photos when I click the button?
 			</div>
 			<div class="rispostain">
 				<div class="speciale impo">*</div> it leverages your peripheral attention, thus, we can perform other actions or focus our attention elsewhere while monitoring the situation. Is our baby crying in the other room? Is it raining? Is our neighbor at home upstairs? We would know, while sitting on the sofa in the living room.
 			</div>
 			<div class="domanda impo">The challenges of Sonification</div>
 			<div class="risposta">
-				The Geiger counter is among the most successful cases of Data Sonification: the rate of clicking of a Geiger counter conveys the level of radiation in the immediate vicinity of the device. The higher the rate, the higher the amount of radiation. When we move to more ambitious representations of data through sound, though, it is often difficult for the average user to grasp the connection between the data and the sounds, compared to what it is to read a - even complex - diagram of the same data. A reason often quoted as cause of this difficulty is, that sonification lacks a wider context, a general training that visualization have benefitted of over the centuries. Our school education, our daily jobs, our communication, is mainly visual. Other reasons might be related to the lack of proper technical equipment to diffuse the sonification: how do we listen to a data sonification in a real world environment to perform a daily task? As we all know, sound in digital products can be annoying for us, or for those around us. More, sonification projects do not benefit of established, industry-level frameworks (Tableaux, etc) to build specific experiences. Many sonification attempts are coded from scratch for very specific needs and goals.
+				The Geiger counter is among the most successful cases of Data Sonification: the higher the rate, the higher the amount of radiation in the vicinity. When we move to more ambitious representations of data through sound, though, it is often difficult for the average user to grasp the connection between the data and the sounds, compared to what it is to read a diagram of the same data. A reason often quoted as cause of this difficulty is, that sonification lacks a wider context, a general training that visualization have benefitted of over the centuries. Moreover, sonification projects do not benefit of established, industry-level frameworks (Tableaux, etc) to build specific experiences. Many sonification attempts are coded from scratch for very specific needs and goals.
 			</div>
 			<div id="parameter">
 				<div class="domanda impo">Parameter Mapping
 					<div class="specific"> - the technique we used in this project</div>
 				</div>
 				<div class="risposta">
-					Many different components can be altered to change the user's perception of the sound, and in turn, their perception of the underlying information being portrayed. Often, an increase or decrease in some level in this information is indicated by an increase or decrease in pitch, amplitude or tempo, but could also be indicated by varying other less commonly used components. For example, a stock market price could be portrayed by rising pitch as the stock price rose, and lowering pitch as it fell. To allow the user to determine that more than one stock was being portrayed, different timbres or brightnesses might be used for the different stocks, or they may be played to the user from different points in space, for example, through different sides of their headphones. Many studies have been undertaken to try to find the best techniques for various types of information to be presented, and as yet, no conclusive set of techniques to be used has been formulated. As the area of sonification is still considered to be in its infancy, current studies are working towards determining the best set of sound components to vary in different situations
+					Many different components can be altered to change the user's perception of the sound, and in turn, their perception of the underlying information being portrayed. Often, an increase or decrease in some level in this information is indicated by an increase or decrease in pitch, amplitude or tempo, but could also be indicated by varying other less commonly used components. For example, a stock market price could be portrayed by rising pitch as the stock price rose, and lowering pitch as it fell. To allow the user to determine that more than one stock was being portrayed, different timbres or brightnesses might be used for the different stocks, or they may be played to the user from different points in space, for example, through different sides of their headphones. Many studies have been undertaken to try to find the best techniques for various types of information to be presented, and as yet, no conclusive set of techniques to be used has been formulated 
 					<div class="sub">[3]</div>.
 				</div>
 			</div>
@@ -118,35 +120,42 @@
 					<div class="info1">
 						Experimental Phase // January 2019
 					</div>
-					<div class="info2">
-						mail di referenza
-					</div>
 				</div>
 
 				<div class="col-3">
-					<div class="info">
-						Project by:
-					</div>
-					<div class="info1">
-						Stefano Galelli - Riccardo Taormina
-					</div>
-					<div class="info2">
-						Sara Lenzi - Ginevra Terenghi
-					</div>
 				</div>
+				
 				<div class="col-3">
 					<div class="info">
-						Engineering Systems and Design
+						From Engineering Systems and Design Dep:
 					</div>
-					<div class="info">
+					<div class="info1">
+						Stefano Galelli 
+					</div>
+					<div class="info2">
+						Riccardo Taormina
+					</div>
+					<div class="info2">
+					&nbsp;
+					</div>
+					<div class="infoF">
 						<img class="footer_img" src="assets/logo-s.png">
 					</div>
 				</div>
 				<div class="col-3">
 					<div class="info">
-						DensityDesign Research Lab
+						From DensityDesign Research Lab:
 					</div>
-					<div class="info">
+					<div class="info1">
+						Sara Lenzi 
+					</div>
+					<div class="info2">
+						Ginevra Terenghi
+					</div>
+					<div class="info2">
+						Supervisor Paolo Ciuccarelli
+					</div>
+					<div class="infoF">
 						<img class="footer_img" src="assets/logo-polimi.png">
 					</div>
 				</div>
