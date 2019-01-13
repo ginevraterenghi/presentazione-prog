@@ -1,5 +1,5 @@
 html {
-	--video-width: 200px;
+	--video-width: 300px;
 }
 
 header {
@@ -431,6 +431,20 @@ dd {
 	text-decoration: none;
 }
 
+.esempiRed {
+	font-family: 'Chivo';
+	font-weight: 100;
+	font-style: italic;
+	color: red
+}
+
+.esempiRed:hover {
+	font-style: normal;
+	color: red;
+	font-weight: 700;
+	text-decoration: none;
+}
+
 .esempi:visited {
 	text-decoration: line-through;
 }
@@ -571,7 +585,7 @@ dd {
 
 @media (min-width: 576px) {
 	html {
-		--video-width: 300px;
+		--video-width: 430px;
 	}
 	.slide {
 		width: 500px;
@@ -664,7 +678,7 @@ dd {
 
 @media (min-width: 768px) {
 	html {
-		--video-width: 300px;
+		--video-width: 340px;
 	}
 	.slide {
 		width: 700px;
@@ -685,7 +699,7 @@ dd {
 
 @media (min-width: 992px) {
 	html {
-		--video-width: 400px;
+		--video-width: 470px;
 	}
 	.footer_img {
 		width: 200px;
@@ -770,7 +784,19 @@ dd {
 
 @media (min-width: 1200px) {
 	html {
-		--video-width: 500px;
+		--video-width: 470px;
+	}
+	.name {
+		font-size: 2rem;
+	}
+	.name2 {
+		font-size: 0rem;
+	}
+}
+
+@media (min-width: 1400px) {
+	html {
+		--video-width: 670px;
 	}
 	.name {
 		font-size: 2rem;
