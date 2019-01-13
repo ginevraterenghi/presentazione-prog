@@ -18,7 +18,7 @@ main {
 }
 
 .footer_img {
-	width: 90px;
+	width: 120px;
 	height: auto;
 }
 
@@ -471,6 +471,15 @@ dd {
 	font-size: 0.4rem;
 }
 
+.info0 {
+	margin-left: 1vh;
+	margin-top: 0.2vh;
+	margin-bottom: 0.2vh;
+	font-family: 'Chivo';
+	font-weight: 200;
+	font-size: 0.4rem;
+}
+
 .infoF {
 	margin-left: 1vh;
 	margin-top: 1.5vh;
@@ -491,7 +500,7 @@ dd {
 
 .info1 {
 	margin-left: 1vh;
-	margin-top: 2vh;
+	margin-top: 1vh;
 	margin-bottom: 0.2vh;
 	font-family: 'Montserrat';
 	font-weight: 200;
@@ -502,6 +511,15 @@ dd {
 	margin-left: 1vh;
 	margin-top: 0.2vh;
 	margin-bottom: 0.2vh;
+	font-family: 'Montserrat';
+	font-weight: 200;
+	font-size: 0.4rem;
+}
+
+.info3 {
+	margin-left: 1vh;
+	margin-top: 0.2vh;
+	margin-bottom: 2vh;
 	font-family: 'Montserrat';
 	font-weight: 200;
 	font-size: 0.4rem;
@@ -616,10 +634,16 @@ dd {
 	.info {
 		font-size: 0.4rem;
 	}
+	.info0 {
+		font-size: 0.4rem;
+	}
 	.info1 {
 		font-size: 0.4rem;
 	}
 	.info2 {
+		font-size: 0.4rem;
+	}
+	.info3 {
 		font-size: 0.4rem;
 	}
 	.infoP {
@@ -664,7 +688,7 @@ dd {
 		--video-width: 400px;
 	}
 	.footer_img {
-		width: 130px;
+		width: 200px;
 		height: auto;
 	}
 	.name {
@@ -725,7 +749,13 @@ dd {
 	.info1 {
 		font-size: 0.7rem;
 	}
+	.info0 {
+		font-size: 0.7rem;
+	}
 	.info2 {
+		font-size: 0.7rem;
+	}
+	.info3 {
 		font-size: 0.7rem;
 	}
 	.infoP {

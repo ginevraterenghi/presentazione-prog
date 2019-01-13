@@ -52,292 +52,292 @@
 		<div class="domanda impo">The Project</div>
 		<div class="risposta">
 			The project uses sound to convey a “first layer” of information to the user. This first layer is meant to raise the user’s awareness on anomalies - their occurrence and the corresponding level of gravity. It should also facilitate the analyst in finding more detailed information, if needed, in the visual interface.
-			<br>The reason for using sound is well grounded in scientific literature. In particular, sound has been proven to be an efficient tool for real time process monitoring 
+			<br>The reason for using sound is well grounded in scientific literature. In particular, sound has been proven to be an efficient tool for real time process monitoring
 			<div class="sub">[5]</div> for cyber security.
-			
-			<div class="domanda impo">The Scenario</div>
-			<div class="risposta">
-				We are referring to the water distribution system of a real-world, medium-sized city. On a regular day, the goal of monitoring is to become aware of any anomalous behavior in the hydraulic components - e.g. tanks overflow, reduction in pump speed, anomalous activation/deactivation of pumps. In case of an anomaly, a predefined protocol is in place to manage the emergency and/or escalate the alarm. In the presence of an anomaly, the operators should also be able to understand whether the problems can be attributed to a cyber attack to the system or to another type of failure.
-				<br>Our hypothetical setting imagines that a dedicated anomaly detection algorithm is in place in the control room, updating every hour on the status of the network regarding the possibility of a cyber attack. The operator monitors, through sound, the status of the network while she/he keeps working at her/his usual tasks.
-			</div>
-
-			<div class="domanda impo">The Data</div>
-			<div class="risposta">
-				Data used in the project come from the various component of the water system network of our imaginary town (C-Town). C-Town has five districts. Every district is marked with “DMA-n” on the map and is recognizable by the district’s background color. The anomaly detection algorithm used in this project, operates using the SCADA (main control unit) data and calculating the difference between incoming real data and predictive data based on the algorithm’s model. Whenever real incoming data differ from the prediction of the model, the algorithm detects an anomaly. The more real data transmitted from the components are far from prediction the more the anomaly detected is to be considered serious.
-				<br>The system status considers five different levels, starting from zero - which means the status is healthy - to five which represents the highest level of anomaly.
-			</div>
-			<img class="mappa" src="./assets/map.jpg">
-
-			<div class="domanda impo">Sound-Key</div>
-			<div class="risposta">
-				Below you find the sound key to the sonification you are about to test. Sounds are divided by Scenarios (1 and 2) and Versions (A and B). The two scenarios are based on a different mapping strategy, i.e., a different correspondence between data values and acoustic parameters (for a more detailed definition please refer to <a class="esempi" href="index.html#parameter">Parameter mapping</a>).
-				<br>Each Scenario comes in two versions. These versions differ on the type of sound content we designed: in one case we used tuned ("musical") sounds, in the other case we used non tuned sounds ("noise"). Therefore, you will test four different prototypes to test: 1-A, 1-B, 2-A, 2-B. 
-				<br>In each of these prototypes, each district has been assigned a different sound, like a “sonic print” representing the district. How this sound behaves and changes during the sonification depends on the hourly data (= the level of anomaly).
-				<br>Here you find the sound associated to each district in each scenario. It will help you familiarize with the “voice” of each district that you will encounter down the road during the test. The prototypes will play all districts together (cause the system receives all data together), so expect the sounds you will hear to be more complex. You can consult this sound-key any time, even during the testing sessions.
-			</div>
-
-			<div class="domanda impo">SCENARIO 1</div>
-			<div class="risposta">
-				In this Scenario, the duration of each sound is directly proportional to the level of the anomaly that the specific district presents, at a given time. The districts’ sounds start all together at the same time. Baseline duration for non - anomalous data/sound is 1 second. The longer the sound the bigger the problem is. The maximum duration is capped at ten seconds. A 10 seconds soundtrack will therefore mean that the level of anomalies in that district is at its highest.
-			</div>
-
-			<div id="unoa">
-				<div class="red">1-A</div>
-
-				<div class="district">
-					<figure>
-						<figcaption>DMA1:</figcaption>
-						<audio controls src="./assets/key/1A/DMA1-1A.mp3">
-            			Your browser does not support the
-						<code>audio</code> element.
-    				</audio>
-					</figure>
-
-				</div>
-				<div class="district">
-					<figure>
-						<figcaption>DMA2:</figcaption>
-						<audio controls src="./assets/key/1A/DMA2-1A.mp3">
-            			Your browser does not support the
-						<code>audio</code> element.
-    				</audio>
-					</figure>
-				</div>
-				<div class="district">
-					<figure>
-						<figcaption>DMA3:</figcaption>
-						<audio controls src="./assets/key/1A/DMA3-1A.mp3">
-            			Your browser does not support the
-						<code>audio</code> element.
-    				</audio>
-					</figure>
-				</div>
-				<div class="district">
-					<figure>
-						<figcaption>DMA4:</figcaption>
-						<audio controls src="./assets/key/1A/DMA4-1A.mp3">
-            			Your browser does not support the
-						<code>audio</code> element.
-    				</audio>
-					</figure>
-				</div>
-				<div class="district">
-					<figure>
-						<figcaption>DMA5:</figcaption>
-						<audio controls src="./assets/key/1A/DMA5-1A.mp3">
-            			Your browser does not support the
-						<code>audio</code> element.
-    				</audio>
-					</figure>
-				</div>
-			</div>
-
-			<div id="unoa">
-				<div class="red">1-B</div>
-				<div class="district">
-					<figure>
-						<figcaption>DMA1:</figcaption>
-						<audio controls src="./assets/key/1B/DMA1-1B.mp3">
-            			Your browser does not support the
-						<code>audio</code> element.
-    				</audio>
-					</figure>
-				</div>
-				<div class="district">
-					<figure>
-						<figcaption>DMA2:</figcaption>
-						<audio controls src="./assets/key/1B/DMA2-1B.mp3">
-            			Your browser does not support the
-						<code>audio</code> element.
-    				</audio>
-					</figure>
-				</div>
-				<div class="district">
-					<figure>
-						<figcaption>DMA3:</figcaption>
-						<audio controls src="./assets/key/1B/DMA3-1B.mp3">
-            			Your browser does not support the
-						<code>audio</code> element.
-    				</audio>
-					</figure>
-				</div>
-				<div class="district">
-					<figure>
-						<figcaption>DMA4:</figcaption>
-						<audio controls src="./assets/key/1B/DMA4-1B.mp3">
-            			Your browser does not support the
-						<code>audio</code> element.
-    				</audio>
-					</figure>
-				</div>
-				<div class="district">
-					<figure>
-						<figcaption>DMA5:</figcaption>
-						<audio controls src="./assets/key/1B/DMA5-1B.mp3">
-            			Your browser does not support the
-						<code>audio</code> element.
-    				</audio>
-					</figure>
-				</div>
-			</div>
-
-
-
-			<div class="domanda impo">SCENARIO 2</div>
-			<div class="risposta">
-				In this Scenario, the level of anomaly is expressed by the frequency of loops of a sound. The districts’ sounds start all together at the same time. The standard duration of the whole sonification is capped at ten second. If the sounds are played only one time at the beginning, with no loops, no anomalies are detected (this means you will hear 1 second of sounds and 9 seconds of silence). If the sound of a specific district is repeated, it means that something wrong is happening in that district. The more frequently a sound loops over the 10 seconds, the more alarming the district state is.
-			</div>
-
-			<div id="unoa">
-				<div class="red">2-A</div>
-
-				<div class="district">
-					<figure>
-						<figcaption>DMA1:</figcaption>
-						<audio controls src="./assets/key/2A/DMA1-2A.mp3">
-            			Your browser does not support the
-						<code>audio</code> element.
-    				</audio>
-					</figure>
-				</div>
-				<div class="district">
-					<figure>
-						<figcaption>DMA2:</figcaption>
-						<audio controls src="./assets/key/2A/DMA2-2A.mp3">
-            			Your browser does not support the
-						<code>audio</code> element.
-    				</audio>
-					</figure>
-				</div>
-				<div class="district">
-					<figure>
-						<figcaption>DMA3:</figcaption>
-						<audio controls src="./assets/key/2A/DMA3-2A.mp3">
-            			Your browser does not support the
-						<code>audio</code> element.
-    				</audio>
-					</figure>
-				</div>
-				<div class="district">
-					<figure>
-						<figcaption>DMA4:</figcaption>
-						<audio controls src="./assets/key/2A/DMA4-2A.mp3">
-            			Your browser does not support the
-						<code>audio</code> element.
-    				</audio>
-					</figure>
-				</div>
-				<div class="district">
-					<figure>
-						<figcaption>DMA5:</figcaption>
-						<audio controls src="./assets/key/2A/DMA5-2A.mp3">
-            			Your browser does not support the
-						<code>audio</code> element.
-    				</audio>
-					</figure>
-				</div>
-			</div>
-
-			<div id="unoa">
-				<div class="red">2-B</div>
-				<div class="district">
-					<figure>
-						<figcaption>DMA1:</figcaption>
-						<audio controls src="./assets/key/2B/DMA1-2B.mp3">
-            			Your browser does not support the
-						<code>audio</code> element.
-    				</audio>
-					</figure>
-				</div>
-				<div class="district">
-					<figure>
-						<figcaption>DMA2:</figcaption>
-						<audio controls src="./assets/key/2B/DMA2-2B.mp3">
-            			Your browser does not support the
-						<code>audio</code> element.
-    				</audio>
-					</figure>
-				</div>
-				<div class="district">
-					<figure>
-						<figcaption>DMA3:</figcaption>
-						<audio controls src="./assets/key/2B/DMA3-2B.mp3">
-            			Your browser does not support the
-						<code>audio</code> element.
-    				</audio>
-					</figure>
-				</div>
-				<div class="district">
-					<figure>
-						<figcaption>DMA4:</figcaption>
-						<audio controls src="./assets/key/2B/DMA4-2B.mp3">
-            			Your browser does not support the
-						<code>audio</code> element.
-    				</audio>
-					</figure>
-				</div>
-				<div class="district">
-					<figure>
-						<figcaption>DMA5:</figcaption>
-						<audio controls src="./assets/key/2B/DMA5-2B.mp3">
-            			Your browser does not support the
-						<code>audio</code> element.
-    				</audio>
-					</figure>
-				</div>
-			</div>
-
-			<div class="domandap">References</div>
-			<div class="doc">
-				<div class="sub">[1]</div> T. Hermann, A. Hunt, J. G. Neuhoff (eds.), The Sonification Handbook, Logos Publishing House: Berlin, 2011.
-			</div>
-			<div class="doc">
-				<div class="sub">[2]</div> Bakker S., van den Hoven E., Eggen B., “Knowing by ear: leveraging human attention abilities in interaction design”, in Journal on Multimodal User Interfaces, 2010.
-			</div>
-			<div class="doc">
-				<div class="sub">[3]</div> Sonification, Wikipedia - the Free Encyclopedia, <a class="x" href="https://en.wikipedia.org/wiki/Sonification">Webpage</a> (Last access 05/01/2018).
-			</div>
-			<div class="doc">
-				<div class="sub">[4]</div> S. Galelli, R. Taormina, N. O. Tippenhauer, E. Salomons, “Characterizing Cyber-Physical Attacks on Water Distribution Systems”, in Journal of Water Resources Planning and Management, Volume 143 Issue 5, 2017.
-			</div>
-			<div class="doc">
-				<div class="sub">[5]</div> L. Axon, S.Creese, M.Goldsmith, J.R. C. Nurse, “Reflecting on the Use of Sonification for Network Monitoring”, SECURWARE 2016 : The Tenth International Conference on Emerging Security Information, Systems and Technologies, 2016.
-			</div>
-			<div class="doc">
-				<div class="sub">[6]</div> L. Axon, S.Creese, M.Goldsmith, J.R. C. Nurse, “A Formalised Approach to Designing Sonification Systems for Network-Security Monitoring”, in International Journal on Advances in Security, vol. 10, no. 1 & 2, 2017.
-			</div>
-		
-
-
-			<div class="domanda">Other References</div>
-			<div class="doc">
-				T. Hildebrandt, , T. Hermann, S. Rinderle-Ma, “Continuous sonification enhances adequacy of interactions in peripheral process monitoring”, in Int. J. Human-Computer Studies, vol. 95, pp. 54-65, 2016.
-			</div>
-			<div class="doc">
-				N. Rönnberg, J. Lundberg, J. Löwgren, “Sonifying the Periphery: Supporting the Formation of Gestalt in Air Traffic Control”, Proceedings of ISon 2016, 5th Interactive Sonification Workshop, CITEC, Bielefeld University, Germany, December 16, 2016.
-			</div>
-			<div class="doc">
-				D. Malandrino, D. Mea, A. Negro, G. Palmieri, V. Scarano, “NeMoS: Network Monitoring with Sound”, Proceedings of the 2003 International Conference on Auditory Display, Boston, MA, USA, July 6-9, 2003.
-			</div>
-			<div class="doc">
-				A.Ballatore, D. Gordon and . P. Boonec, “Sonifying data uncertainty with sound dimensions”, in Cartography and Geographic Information Science, 2018.
-			</div>
-			<div class="doc">
-				K. V. Nesbitt and S. Barrass, “Evaluation of a Multimodal Sonification and Visualization of Depth of Market Stock Data” in Proceedings of the 2002 International Conference on Auditory Display, Kyoto, Japan, July 2-5, 2002.
-			</div>
-			<div class="doc">
-				R. Taormina, S. Galelli, N. Tippenhauer et al., “The Battle of the Attack Detection Algorithms: Disclosing Cyber Attacks on Water Distribution Networks”, Authors Copy ? 2018.
-			</div>
-			<div class="doc">
-				A. Kobsa, “User Experiments with Tree Visualization Systems”, in Proceedings of InfoVis 2004, IEEE Symposium on Information Visualization, Austin, TX, 2004.
-			</div>
-			<div class="doc">
-				A. Patcha, Jung-Min P., “An overview of anomaly detection techniques: Existing solutions and latest technological trends” in Computer Networks, vol. 51, pp. 3448–3470, 2007.
-			</div>
-
-
-
 		</div>
+
+		<div class="domanda impo">The Scenario</div>
+		<div class="risposta">
+			We are referring to the water distribution system of a real-world, medium-sized city. On a regular day, the goal of monitoring is to become aware of any anomalous behavior in the hydraulic components - e.g. tanks overflow, reduction in pump speed, anomalous activation/deactivation of pumps. In case of an anomaly, a predefined protocol is in place to manage the emergency and/or escalate the alarm. In the presence of an anomaly, the operators should also be able to understand whether the problems can be attributed to a cyber attack to the system or to another type of failure.
+			<br>Our hypothetical setting imagines that a dedicated anomaly detection algorithm is in place in the control room, updating every hour on the status of the network regarding the possibility of a cyber attack. The operator monitors, through sound, the status of the network while she/he keeps working at her/his usual tasks.
+		</div>
+
+		<div class="domanda impo">The Data</div>
+		<div class="risposta">
+			Data used in the project come from the various component of the water system network of our imaginary town (C-Town). C-Town has five districts. Every district is marked with “DMA-n” on the map and is recognizable by the district’s background color. The anomaly detection algorithm used in this project, operates using the SCADA (main control unit) data and calculating the difference between incoming real data and predictive data based on the algorithm’s model. Whenever real incoming data differ from the prediction of the model, the algorithm detects an anomaly. The more real data transmitted from the components are far from prediction the more the anomaly detected is to be considered serious.
+			<br>The system status considers five different levels, starting from zero - which means the status is healthy - to five which represents the highest level of anomaly.
+		</div>
+		<img class="mappa" src="./assets/map.jpg">
+
+		<div class="domanda impo">Sound-Key</div>
+		<div class="risposta">
+			Below you find the sound key to the sonification you are about to test. Sounds are divided by Scenarios (1 and 2) and Versions (A and B). The two scenarios are based on a different mapping strategy, i.e., a different correspondence between data values and acoustic parameters (for a more detailed definition please refer to <a class="esempi" href="index.html#parameter">Parameter mapping</a>).
+			<br>Each Scenario comes in two versions. These versions differ on the type of sound content we designed: in one case we used tuned ("musical") sounds, in the other case we used non tuned sounds ("noise"). Therefore, you will test four different prototypes to test: 1-A, 1-B, 2-A, 2-B.
+			<br>In each of these prototypes, each district has been assigned a different sound, like a “sonic print” representing the district. How this sound behaves and changes during the sonification depends on the hourly data (= the level of anomaly).
+			<br>Here you find the sound associated to each district in each scenario. It will help you familiarize with the “voice” of each district that you will encounter down the road during the test. The prototypes will play all districts together (cause the system receives all data together), so expect the sounds you will hear to be more complex. You can consult this sound-key any time, even during the testing sessions.
+		</div>
+
+		<div class="domanda impo">SCENARIO 1</div>
+		<div class="risposta">
+			In this Scenario, the duration of each sound is directly proportional to the level of the anomaly that the specific district presents, at a given time. The districts’ sounds start all together at the same time. Baseline duration for non - anomalous data/sound is 1 second. The longer the sound the bigger the problem is. The maximum duration is capped at ten seconds. A 10 seconds soundtrack will therefore mean that the level of anomalies in that district is at its highest.
+		</div>
+
+		<div id="unoa">
+			<div class="red">1-A</div>
+
+			<div class="district">
+				<figure>
+					<figcaption>DMA1:</figcaption>
+					<audio controls src="./assets/key/1A/DMA1-1A.mp3">
+            			Your browser does not support the
+						<code>audio</code> element.
+    				</audio>
+				</figure>
+
+			</div>
+			<div class="district">
+				<figure>
+					<figcaption>DMA2:</figcaption>
+					<audio controls src="./assets/key/1A/DMA2-1A.mp3">
+            			Your browser does not support the
+						<code>audio</code> element.
+    				</audio>
+				</figure>
+			</div>
+			<div class="district">
+				<figure>
+					<figcaption>DMA3:</figcaption>
+					<audio controls src="./assets/key/1A/DMA3-1A.mp3">
+            			Your browser does not support the
+						<code>audio</code> element.
+    				</audio>
+				</figure>
+			</div>
+			<div class="district">
+				<figure>
+					<figcaption>DMA4:</figcaption>
+					<audio controls src="./assets/key/1A/DMA4-1A.mp3">
+            			Your browser does not support the
+						<code>audio</code> element.
+    				</audio>
+				</figure>
+			</div>
+			<div class="district">
+				<figure>
+					<figcaption>DMA5:</figcaption>
+					<audio controls src="./assets/key/1A/DMA5-1A.mp3">
+            			Your browser does not support the
+						<code>audio</code> element.
+    				</audio>
+				</figure>
+			</div>
+		</div>
+
+		<div id="unoa">
+			<div class="red">1-B</div>
+			<div class="district">
+				<figure>
+					<figcaption>DMA1:</figcaption>
+					<audio controls src="./assets/key/1B/DMA1-1B.mp3">
+            			Your browser does not support the
+						<code>audio</code> element.
+    				</audio>
+				</figure>
+			</div>
+			<div class="district">
+				<figure>
+					<figcaption>DMA2:</figcaption>
+					<audio controls src="./assets/key/1B/DMA2-1B.mp3">
+            			Your browser does not support the
+						<code>audio</code> element.
+    				</audio>
+				</figure>
+			</div>
+			<div class="district">
+				<figure>
+					<figcaption>DMA3:</figcaption>
+					<audio controls src="./assets/key/1B/DMA3-1B.mp3">
+            			Your browser does not support the
+						<code>audio</code> element.
+    				</audio>
+				</figure>
+			</div>
+			<div class="district">
+				<figure>
+					<figcaption>DMA4:</figcaption>
+					<audio controls src="./assets/key/1B/DMA4-1B.mp3">
+            			Your browser does not support the
+						<code>audio</code> element.
+    				</audio>
+				</figure>
+			</div>
+			<div class="district">
+				<figure>
+					<figcaption>DMA5:</figcaption>
+					<audio controls src="./assets/key/1B/DMA5-1B.mp3">
+            			Your browser does not support the
+						<code>audio</code> element.
+    				</audio>
+				</figure>
+			</div>
+		</div>
+
+
+
+		<div class="domanda impo">SCENARIO 2</div>
+		<div class="risposta">
+			In this Scenario, the level of anomaly is expressed by the frequency of loops of a sound. The districts’ sounds start all together at the same time. The standard duration of the whole sonification is capped at ten second. If the sounds are played only one time at the beginning, with no loops, no anomalies are detected (this means you will hear 1 second of sounds and 9 seconds of silence). If the sound of a specific district is repeated, it means that something wrong is happening in that district. The more frequently a sound loops over the 10 seconds, the more alarming the district state is.
+		</div>
+
+		<div id="unoa">
+			<div class="red">2-A</div>
+
+			<div class="district">
+				<figure>
+					<figcaption>DMA1:</figcaption>
+					<audio controls src="./assets/key/2A/DMA1-2A.mp3">
+            			Your browser does not support the
+						<code>audio</code> element.
+    				</audio>
+				</figure>
+			</div>
+			<div class="district">
+				<figure>
+					<figcaption>DMA2:</figcaption>
+					<audio controls src="./assets/key/2A/DMA2-2A.mp3">
+            			Your browser does not support the
+						<code>audio</code> element.
+    				</audio>
+				</figure>
+			</div>
+			<div class="district">
+				<figure>
+					<figcaption>DMA3:</figcaption>
+					<audio controls src="./assets/key/2A/DMA3-2A.mp3">
+            			Your browser does not support the
+						<code>audio</code> element.
+    				</audio>
+				</figure>
+			</div>
+			<div class="district">
+				<figure>
+					<figcaption>DMA4:</figcaption>
+					<audio controls src="./assets/key/2A/DMA4-2A.mp3">
+            			Your browser does not support the
+						<code>audio</code> element.
+    				</audio>
+				</figure>
+			</div>
+			<div class="district">
+				<figure>
+					<figcaption>DMA5:</figcaption>
+					<audio controls src="./assets/key/2A/DMA5-2A.mp3">
+            			Your browser does not support the
+						<code>audio</code> element.
+    				</audio>
+				</figure>
+			</div>
+		</div>
+
+		<div id="unoa">
+			<div class="red">2-B</div>
+			<div class="district">
+				<figure>
+					<figcaption>DMA1:</figcaption>
+					<audio controls src="./assets/key/2B/DMA1-2B.mp3">
+            			Your browser does not support the
+						<code>audio</code> element.
+    				</audio>
+				</figure>
+			</div>
+			<div class="district">
+				<figure>
+					<figcaption>DMA2:</figcaption>
+					<audio controls src="./assets/key/2B/DMA2-2B.mp3">
+            			Your browser does not support the
+						<code>audio</code> element.
+    				</audio>
+				</figure>
+			</div>
+			<div class="district">
+				<figure>
+					<figcaption>DMA3:</figcaption>
+					<audio controls src="./assets/key/2B/DMA3-2B.mp3">
+            			Your browser does not support the
+						<code>audio</code> element.
+    				</audio>
+				</figure>
+			</div>
+			<div class="district">
+				<figure>
+					<figcaption>DMA4:</figcaption>
+					<audio controls src="./assets/key/2B/DMA4-2B.mp3">
+            			Your browser does not support the
+						<code>audio</code> element.
+    				</audio>
+				</figure>
+			</div>
+			<div class="district">
+				<figure>
+					<figcaption>DMA5:</figcaption>
+					<audio controls src="./assets/key/2B/DMA5-2B.mp3">
+            			Your browser does not support the
+						<code>audio</code> element.
+    				</audio>
+				</figure>
+			</div>
+		</div>
+
+		<div class="domandap">References</div>
+		<div class="doc">
+			<div class="sub">[1]</div> T. Hermann, A. Hunt, J. G. Neuhoff (eds.), The Sonification Handbook, Logos Publishing House: Berlin, 2011.
+		</div>
+		<div class="doc">
+			<div class="sub">[2]</div> Bakker S., van den Hoven E., Eggen B., “Knowing by ear: leveraging human attention abilities in interaction design”, in Journal on Multimodal User Interfaces, 2010.
+		</div>
+		<div class="doc">
+			<div class="sub">[3]</div> Sonification, Wikipedia - the Free Encyclopedia, <a class="x" href="https://en.wikipedia.org/wiki/Sonification">Webpage</a> (Last access 05/01/2018).
+		</div>
+		<div class="doc">
+			<div class="sub">[4]</div> S. Galelli, R. Taormina, N. O. Tippenhauer, E. Salomons, “Characterizing Cyber-Physical Attacks on Water Distribution Systems”, in Journal of Water Resources Planning and Management, Volume 143 Issue 5, 2017.
+		</div>
+		<div class="doc">
+			<div class="sub">[5]</div> L. Axon, S.Creese, M.Goldsmith, J.R. C. Nurse, “Reflecting on the Use of Sonification for Network Monitoring”, SECURWARE 2016 : The Tenth International Conference on Emerging Security Information, Systems and Technologies, 2016.
+		</div>
+		<div class="doc">
+			<div class="sub">[6]</div> L. Axon, S.Creese, M.Goldsmith, J.R. C. Nurse, “A Formalised Approach to Designing Sonification Systems for Network-Security Monitoring”, in International Journal on Advances in Security, vol. 10, no. 1 & 2, 2017.
+		</div>
+
+
+
+		<div class="domanda">Other References</div>
+		<div class="doc">
+			T. Hildebrandt, , T. Hermann, S. Rinderle-Ma, “Continuous sonification enhances adequacy of interactions in peripheral process monitoring”, in Int. J. Human-Computer Studies, vol. 95, pp. 54-65, 2016.
+		</div>
+		<div class="doc">
+			N. Rönnberg, J. Lundberg, J. Löwgren, “Sonifying the Periphery: Supporting the Formation of Gestalt in Air Traffic Control”, Proceedings of ISon 2016, 5th Interactive Sonification Workshop, CITEC, Bielefeld University, Germany, December 16, 2016.
+		</div>
+		<div class="doc">
+			D. Malandrino, D. Mea, A. Negro, G. Palmieri, V. Scarano, “NeMoS: Network Monitoring with Sound”, Proceedings of the 2003 International Conference on Auditory Display, Boston, MA, USA, July 6-9, 2003.
+		</div>
+		<div class="doc">
+			A.Ballatore, D. Gordon and . P. Boonec, “Sonifying data uncertainty with sound dimensions”, in Cartography and Geographic Information Science, 2018.
+		</div>
+		<div class="doc">
+			K. V. Nesbitt and S. Barrass, “Evaluation of a Multimodal Sonification and Visualization of Depth of Market Stock Data” in Proceedings of the 2002 International Conference on Auditory Display, Kyoto, Japan, July 2-5, 2002.
+		</div>
+		<div class="doc">
+			R. Taormina, S. Galelli, N. Tippenhauer et al., “The Battle of the Attack Detection Algorithms: Disclosing Cyber Attacks on Water Distribution Networks”, Authors Copy ? 2018.
+		</div>
+		<div class="doc">
+			A. Kobsa, “User Experiments with Tree Visualization Systems”, in Proceedings of InfoVis 2004, IEEE Symposium on Information Visualization, Austin, TX, 2004.
+		</div>
+		<div class="doc">
+			A. Patcha, Jung-Min P., “An overview of anomaly detection techniques: Existing solutions and latest technological trends” in Computer Networks, vol. 51, pp. 3448–3470, 2007.
+		</div>
+
+
+		
 	</main>
 
 
@@ -348,19 +348,26 @@
 
 				<div class="col-3">
 					<div class="info">
-						sonifying cyber-attacks in water plants
+						sonifying cyber-attacks in water plants &nbsp;
+						<br>&nbsp;
+					</div>
+					<div class="info0">
+						&nbsp;
 					</div>
 					<div class="info1">
-						Experimental Phase // January 2019
+						Experimental Phase
 					</div>
-				</div>
-
-				<div class="col-3">
+					<div class="info2">
+						January 2019
+					</div>
 				</div>
 
 				<div class="col-3">
 					<div class="info">
-						From Engineering Systems and Design Dep:
+						Singapore University of Technology and Design //
+					</div>
+					<div class="info0">
+						Engineering Systems and Design Dep:
 					</div>
 					<div class="info1">
 						Stefano Galelli
@@ -371,13 +378,15 @@
 					<div class="info2">
 						&nbsp;
 					</div>
-					<div class="infoF">
-						<img class="footer_img" src="assets/logo-s.png">
-					</div>
+
 				</div>
 				<div class="col-3">
 					<div class="info">
-						From DensityDesign Research Lab:
+						Politecnico di Milano //
+						<br>&nbsp;
+					</div>
+					<div class="info0">
+						DensityDesign Research Lab:
 					</div>
 					<div class="info1">
 						Sara Lenzi
@@ -385,11 +394,18 @@
 					<div class="info2">
 						Ginevra Terenghi
 					</div>
-					<div class="info2">
-						Supervisor Paolo Ciuccarelli
+					<div class="info3">
+						Paolo Ciuccarelli
+					</div>
+
+				</div>
+
+				<div class="col-3">
+					<div class="info">
+						<img class="footer_img" src="assets/logo-s.png">
 					</div>
 					<div class="infoF">
-						<img class="footer_img" src="assets/logo-polimi.png">
+						<img class="footer_img" src="assets/logo-dd.png">
 					</div>
 				</div>
 
