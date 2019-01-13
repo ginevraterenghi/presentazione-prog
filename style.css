@@ -329,6 +329,18 @@ figcaption {
 	line-height: 1rem;
 }
 
+.doc2 {
+	/*	background: pink;*/
+	margin-left: 0vh;
+	margin-right: 0vh;
+	margin-top: 0.2vh;
+	font-family: 'Chivo';
+	font-weight: 100;
+	font-size: 0.5rem;
+	text-align: justify;
+	line-height: 1rem;
+}
+
 .scenario a {
 	/*	background: pink;*/
 	margin-left: 1vh;
@@ -462,16 +474,18 @@ dd {
 */
 
 #duea {
-	padding-top: 10vh;
+/*	padding-top: 10vh;*/
 }
 
 #unob {
-	padding-top: 10vh;
+/*	padding-top: 10vh;*/
 }
 
 #dueb {
+/*
 	padding-top: 10vh;
 	padding-top: 10vh;
+*/
 }
 
 
@@ -645,6 +659,10 @@ dd {
 		font-size: 0.8rem;
 		line-height: 1.5rem;
 	}
+	.doc2 {
+		font-size: 0.8rem;
+		line-height: 1.5rem;
+	}
 	.info {
 		font-size: 0.4rem;
 	}
@@ -754,6 +772,10 @@ dd {
 	}
 
 	.doc {
+		font-size: 0.9rem;
+		line-height: 1.8rem;
+	}
+	.doc2 {
 		font-size: 0.9rem;
 		line-height: 1.8rem;
 	}
